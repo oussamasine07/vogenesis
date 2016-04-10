@@ -1,0 +1,1143 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,700);
+@import "style.css" screen;
+/* Typography */
+/* line 10, sass/style.scss */
+html > body {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 160%;
+  filter: normal;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 26, sass/style.scss */
+h1, h2, h3, h4, h5, h6,
+._row h1, ._row h2, ._row h3, ._row h4, ._row h5, ._row h6,
+.frame h1, .frame h2, frame h3, .frame h4, .frame h5, .frame h6 {
+  font-family: "Roboto", Sans-serif;
+  line-height: 1.3em;
+  letter-spacing: normal;
+  color: #FFF;
+  margin: 0;
+}
+.frame-border {
+border:3px solid #111111;
+}
+
+
+/* line 34, sass/style.scss */
+h1, ._row h1 {
+  color: #34a6b4;
+  /*font-size: 44px;*/
+  font-size: 4.4rem;
+  line-height: 2em;
+  margin: 0;
+}
+
+/* line 42, sass/style.scss */
+h2, ._row h2 {
+  color: #34a6b4;
+  /*font-size: 36px;*/
+  font-size: 3.6rem;
+  line-height: 1.2em;
+}
+
+/* line 49, sass/style.scss */
+h3, ._row h3 {
+  color: #34a6b4;
+  /*font-size: 30px;*/
+  font-size: 3.0rem;
+  line-height: 1.2em;
+}
+
+/* line 56, sass/style.scss */
+h4, ._row h4 {
+  color: #34a6b4;
+  /*font-size: 24px;*/
+  font-size: 2.4rem;
+}
+
+/* line 62, sass/style.scss */
+h5, ._row h5 {
+  color: #34a6b4;
+  /*font-size: 20px;*/
+  font-size: 2.0rem;
+}
+
+/* line 68, sass/style.scss */
+h6, ._row h6 {
+  color: #34a6b4;
+  /*font-size: 18px;*/
+  font-size: 1.8rem;
+}
+
+/* line 81, sass/style.scss */
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span,
+p span,
+span {
+  display: block;
+}
+
+/* line 85, sass/style.scss */
+span.fn {
+  display: inline;
+}
+
+/* line 89, sass/style.scss */
+span.caps {
+  display: inline;
+}
+
+/* line 93, sass/style.scss */
+ins {
+  background: none;
+  text-decoration: underline;
+  color: inherit;
+}
+
+/* line 99, sass/style.scss */
+.jumbo-size {
+  font-size: 50px !important;
+  line-height: 56px;
+}
+
+/* line 104, sass/style.scss */
+.txtgrey {
+  color: #4e4e4e !important;
+}
+
+/* line 108, sass/style.scss */
+.txtwhite {
+  color: #FFF !important;
+}
+
+/* line 112, sass/style.scss */
+.txtorange a {
+  color: #f59f3a !important;
+}
+
+/* line 116, sass/style.scss */
+.txtorange {
+  color: #f59f3a !important;
+}
+
+/* line 120, sass/style.scss */
+.txtred {
+  color: #900 !important;
+}
+
+/* line 124, sass/style.scss */
+.txtblue {
+  color: #2a3b50 !important;
+}
+
+/* End Typography */
+/* DO NOT CHANGE ANYTHING FROM HERE */
+/* line 134, sass/style.scss */
+._cntcenter {
+  margin: 0 auto;
+  padding: 0 10px;
+  float: none;
+  overflow: visible;
+  width: 960px ;
+  position: relative;
+}
+
+/* line 143, sass/style.scss */
+._centered > ._col {
+  float: none;
+}
+
+/* line 147, sass/style.scss */
+._nomargin {
+  margin: 0 !important;
+}
+
+/* line 151, sass/style.scss */
+#socialmedia {
+  width: 360px;
+  margin: 20px auto;
+  margin-top: 10px;
+}
+
+/* line 157, sass/style.scss */
+._container ._main ._wrapper {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+  width: 100%;
+  padding: 0;
+  min-width: 1000px ;
+  margin-bottom: -20px;
+}
+
+/* line 168, sass/style.scss */
+._container ._main {
+  background-color: #FFF;
+  margin-top: -10px;
+  min-width: 1000px;
+}
+
+/* line 174, sass/style.scss */
+header {
+  background: #051924;
+}
+
+/* line 178, sass/style.scss */
+footer {
+  background: #051924;
+  padding-top: 20px;
+  min-width: 1000px;
+  margin: 20px 0 0 0;
+}
+
+/* line 185, sass/style.scss */
+footer ._wrapper section._colophon p {
+  color: #FFF;
+}
+
+/* line 189, sass/style.scss */
+footer ._wrapper section._colophon a._logo {
+  background: url(images/logo-mv-white-f.png) no-repeat 0 0;
+  display: block;
+  width: 200px;
+  margin-left: -80px;
+  height: 70px;
+}
+
+/* line 197, sass/style.scss */
+footer ._wrapper section._colophon {
+  margin-left: 200px;
+}
+
+/* line 201, sass/style.scss */
+.topnav {
+  background: rgba(4, 29, 44, 0.4);
+}
+
+/* line 205, sass/style.scss */
+.topnav table {
+  margin-top: 24px;
+}
+
+/* line 209, sass/style.scss */
+.topnav table td {
+  padding: 15px 12px 0 12px;
+  text-transform: uppercase;
+  font-family: 'Maven Pro';
+  color: #FFF;
+  font-size: 14px;
+}
+
+/* line 217, sass/style.scss */
+.topnav table td a {
+  color: #FFF !important;
+  padding: 0 0 15px 0;
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* line 229, sass/style.scss */
+.topnav table td a:hover {
+  border-bottom: 5px #18f1ba solid;
+  opacity: 1;
+}
+
+/* line 234, sass/style.scss */
+.topnav ._row._bi {
+  margin-bottom: 0;
+}
+
+/* line 238, sass/style.scss */
+.topnav-white {
+  border-bottom: 1px solid #b0b0b0;
+  background-color: #FFF;
+}
+
+/* line 243, sass/style.scss */
+.topnav-white table td {
+  padding: 15px 12px 0 12px;
+  text-transform: uppercase;
+  font-family: 'Maven Pro';
+  color: #333;
+  font-size: 14px;
+}
+
+/* line 251, sass/style.scss */
+.topnav-white table td a {
+  color: #333 !important;
+  padding: 0 0 15px 0;
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* line 263, sass/style.scss */
+.topnav-white table td a:hover {
+  border-bottom: 5px #76baaf solid;
+  opacity: 1;
+}
+
+/* line 268, sass/style.scss */
+.topnav-white ._row._bi {
+  margin-bottom: 0;
+}
+
+/* line 272, sass/style.scss */
+.topnav-grey {
+  border-bottom: 1px solid #b0b0b0;
+  background-color: #2e2e2e;
+}
+
+/* line 277, sass/style.scss */
+.topnav-grey table td {
+  padding: 15px 12px 0 12px;
+  text-transform: uppercase;
+  font-family: 'Maven Pro';
+  color: #FFF;
+  font-size: 14px;
+}
+
+/* line 285, sass/style.scss */
+.topnav-grey table td a {
+  color: #FFF !important;
+  padding: 0 0 15px 0;
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* line 297, sass/style.scss */
+.topnav-grey table td a:hover {
+  border-bottom: 5px #76baaf solid;
+  opacity: 1;
+}
+
+/* line 302, sass/style.scss */
+.topnav-grey ._row._bi {
+  margin-bottom: 0;
+}
+
+/* line 306, sass/style.scss */
+p span._legal._links {
+  display: inline;
+}
+
+/* line 310, sass/style.scss */
+._ddmenu:after {
+  background: none;
+}
+
+/* line 314, sass/style.scss */
+._ddmenu {
+  height: 90px;
+}
+
+/* END DO NOT CHANGE ANYTHING FROM HERE */
+/* Homepage */
+/* line 324, sass/style.scss */
+.header {
+  background: url(images/homepage/header-bg.jpg) no-repeat 0 0 #121610;
+  width: 100%;
+  background-position: center;
+  min-height: 617px;
+}
+
+/* line 331, sass/style.scss */
+.header-tri {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 30px 50px 0 50px;
+  border-color: #949077 transparent transparent transparent;
+  margin: 0 auto;
+}
+
+/* line 340, sass/style.scss */
+.circle {
+  font-size: 6em;
+  /*this controls the size */
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  border: 6px solid;
+  position: absolute;
+  border-radius: 0.35em;
+  margin: 481px 0 0 455px;
+  -webkit-animation-name: Pulse;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: Pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+/* line 357, sass/style.scss */
+.circle:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 16px solid;
+  position: absolute;
+  margin: 13px 0 0 9px;
+  -webkit-animation-name: Pulse-tri;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: Pulse-tri;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+/* line 374, sass/style.scss */
+.transparent-box {
+  width: 50px;
+  height: 50px;
+  margin: -6px 0 0 -6px;
+  position: absolute;
+}
+
+@keyframes Pulse {
+  /* line 382, sass/style.scss */
+  0% {
+    border: 6px solid #3f3e36;
+    box-shadow: 0 0 9px #333;
+  }
+
+  /* line 383, sass/style.scss */
+  50% {
+    border: 6px solid #ff9c00;
+    box-shadow: 0 0 18px;
+  }
+
+  /* line 384, sass/style.scss */
+  100% {
+    border: 6px solid #3f3e36;
+    box-shadow: 0 0 9px #333;
+  }
+}
+
+@-webkit-keyframes Pulse {
+  /* line 388, sass/style.scss */
+  0% {
+    border: 6px solid #3f3e36;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+
+  /* line 389, sass/style.scss */
+  50% {
+    border: 6px solid #ff9c00;
+    -webkit-box-shadow: 0 0 18px;
+  }
+
+  /* line 390, sass/style.scss */
+  100% {
+    border: 6px solid #3f3e36;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+}
+
+@keyframes Pulse-tri {
+  /* line 394, sass/style.scss */
+  0% {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 16px solid #3f3e36;
+  }
+
+  /* line 397, sass/style.scss */
+  50% {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 16px solid #ff9c00;
+  }
+
+  /* line 400, sass/style.scss */
+  100% {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 16px solid #3f3e36;
+  }
+}
+
+@-webkit-keyframes Pulse-tri {
+  /* line 406, sass/style.scss */
+  0% {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 16px solid #3f3e36;
+  }
+
+  /* line 409, sass/style.scss */
+  50% {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 16px solid #ff9c00;
+  }
+
+  /* line 412, sass/style.scss */
+  100% {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 16px solid #3f3e36;
+  }
+}
+
+/* line 417, sass/style.scss */
+.dotted-bg {
+  background: url(../img/dotted-bg.jpg);
+}
+
+/* line 421, sass/style.scss */
+.video-frame {
+  background: url(images/homepage/video-frame-small.jpg) no-repeat 0 0;
+  height: 446px;
+  width: 722px;
+  margin: 0 auto;
+}
+
+/* line 428, sass/style.scss */
+.green-optin {
+  background: #34a6b4;
+  padding-bottom: 30px;
+}
+
+/* line 433, sass/style.scss */
+.green-optin p {
+  color: #FFF !important;
+}
+
+/* line 437, sass/style.scss */
+.signup-form {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+/* line 442, sass/style.scss */
+.signup-form form button {
+  background: #ffce2a;
+  font-size: 2.4rem;
+  color: #333;
+  padding: 18px;
+  width: 640px;
+  margin: 0!important;
+  height: 65px;
+}
+
+/* line 453, sass/style.scss */
+.signup-form form input[type="text"],
+.signup-form form input[type="email"] {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+  padding: 12px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 8px;
+  font-size: 1.8rem;
+  width: 300px;
+  margin: 20px 0;
+}
+.optinbox {
+    background: #D7F4FB;
+    color: #FFF;
+	-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+    padding: 20px 20px;
+}
+.shadow {
+    -moz-box-shadow: 0 0 10px #333;
+    -webkit-box-shadow: 0 0 10px #333;
+    box-shadow: 0 0 10px #333;
+}
+/* line 468, sass/style.scss */
+.signup-form form li {
+  display: inline-block;
+  padding: 0 20px 0 0;
+}
+
+/* line 473, sass/style.scss */
+.green-tri {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 30px 50px 0 50px;
+  border-color: #34a6b4 transparent transparent transparent;
+  margin: 0 auto;
+}
+
+/* line 482, sass/style.scss */
+.white-tri {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 30px 50px 0 50px;
+  border-color: #FFF transparent transparent transparent;
+  margin: 0 auto;
+}
+
+/* line 491, sass/style.scss */
+.black-tri {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 30px 50px 0 50px;
+  border-color: #000 transparent transparent transparent;
+  margin: 0 auto;
+}
+
+/* line 500, sass/style.scss */
+.grey-tri {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 30px 50px 0 50px;
+  border-color: #efefef transparent transparent transparent;
+  margin: 0 auto;
+}
+
+/* line 509, sass/style.scss */
+.dkblue-tri {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 30px 50px 0 50px;
+  border-color: #081e25 transparent transparent transparent;
+  margin: 0 auto;
+}
+
+/* line 518, sass/style.scss */
+.lp-tri {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 30px 50px 0 50px;
+  border-color: #02090f transparent transparent transparent;
+  margin: 0 auto;
+}
+
+/* line 527, sass/style.scss */
+.white-tri-dotted {
+  background: url(../img/white-tri-dotted.png) no-repeat 0 0;
+  position: absolute;
+  height: 30px;
+  width: 103px;
+  margin: 15px 0 0 419px;
+}
+
+/* line 535, sass/style.scss */
+.featured-tri {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 30px 50px 0 50px;
+  border-color: #082b4f transparent transparent transparent;
+  margin: 0 auto;
+}
+
+/* line 544, sass/style.scss */
+.featured-bg {
+  background: url(images/homepage/featured-bg.jpg) no-repeat 0 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -20px;
+}
+
+/* line 553, sass/style.scss */
+.featured-bg p {
+  color: #FFF !important;
+}
+
+/* line 557, sass/style.scss */
+.featured-bg h4 {
+  position: absolute;
+  margin-top: 100px;
+  color: #fcd917;
+  font-size: 30px;
+  margin-left: 15px;
+  z-index: 1;
+}
+
+/* line 566, sass/style.scss */
+.featured-bg h5 {
+  position: absolute;
+  margin-top: 135px;
+  color: #fcd917;
+  font-size: 20px;
+  margin-left: 15px;
+  z-index: 1;
+}
+
+/* line 575, sass/style.scss */
+.testimonial-box {
+  background: #313131;
+  padding: 20px 30px 35px 30px;
+  width: 250px;
+  margin-left: 10px;
+}
+
+/* line 582, sass/style.scss */
+.testimonial-tri {
+  background: url(images/homepage/grey-tri.png) no-repeat 0 0;
+  height: 27px !important;
+  width: 75px !important;
+  margin-left: 125px;
+}
+
+/* line 589, sass/style.scss */
+.created-bar {
+  background: #082b4f;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 595, sass/style.scss */
+.about-carl {
+  height: 615px;
+}
+
+/* line 599, sass/style.scss */
+.aweber {
+  margin-left: 175px;
+}
+
+/* line 603, sass/style.scss */
+.privacy {
+  color: #FFF;
+  margin: 10px 0 0 250px;
+}
+
+/* line 608, sass/style.scss */
+.privacy a {
+  color: #FFF;
+}
+
+/* line 612, sass/style.scss */
+.grey-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 269px;
+  height: 161px;
+  position: absolute;
+  margin: 10px 0 0 12px;
+}
+
+/* line 620, sass/style.scss */
+#socialmedia {
+  width: 360px;
+  margin: 20px auto;
+}
+
+/* line 625, sass/style.scss */
+.social-media {
+  width: 960px;
+  margin: 20px auto;
+}
+
+/* line 630, sass/style.scss */
+.vertical-share {
+  width: 30px;
+  position: absolute;
+  right: 0;
+  margin: 30px 90px 0 0;
+}
+
+/* line 637, sass/style.scss */
+.vertical-share p.socialtxt {
+  margin: 0;
+}
+
+/* line 641, sass/style.scss */
+.vertical-share ._email .stButton {
+  margin-left: 5px;
+}
+
+/* line 645, sass/style.scss */
+.grey-bg {
+  background: #efefef;
+}
+
+/* End Homepage */
+/* Webinar access */
+/* line 656, sass/style.scss */
+.hori-share {
+  margin-left: 15px;
+}
+
+/* line 660, sass/style.scss */
+.webinar-bg {
+  background: url(images/webinar/blue-bg.jpg) no-repeat 0 0 !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+/* line 668, sass/style.scss */
+.webinar-gradient {
+  background: #1e5799;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(30, 87, 153, 0) 0%, #081e25 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(30, 87, 153, 0)), color-stop(100%, #081e25));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(30, 87, 153, 0) 0%, #081e25 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(30, 87, 153, 0) 0%, #081e25 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(30, 87, 153, 0) 0%, #081e25 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 0%, #081e25 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(30, 87, 153, 0)', endColorstr='#081e25',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 679, sass/style.scss */
+.rounded-whitebox {
+  background: #FFF;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 660px;
+  margin: 0 auto;
+}
+
+/* line 688, sass/style.scss */
+.rounded-whitebox p,
+.rounded-whitebox h5 {
+  margin: 0;
+}
+
+/* line 692, sass/style.scss */
+.checklist {
+  width: 530px;
+  margin: 0 auto;
+}
+
+/* line 697, sass/style.scss */
+.checklist-number {
+  background: url(images/webinar/checklist-number.png) no-repeat 0 0;
+  width: 660px;
+  height: 40px;
+  margin: 0 0 0 150px;
+  display: inline-block;
+}
+
+/* line 705, sass/style.scss */
+.checklist-number.two {
+  background-position: 0px -40px;
+}
+
+/* line 709, sass/style.scss */
+.checklist-number.three {
+  background-position: 0px -80px;
+}
+
+/* line 713, sass/style.scss */
+.checklist-number.four {
+  background-position: 0px -120px;
+}
+
+/* line 717, sass/style.scss */
+.checklist-number.five {
+  background-position: 0px -161px;
+}
+
+/* line 721, sass/style.scss */
+.checklist-number.six {
+  background-position: 0px -296px;
+}
+
+/* line 725, sass/style.scss */
+.checklist-info {
+  width: 400px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* line 731, sass/style.scss */
+.checklist-info a {
+  color: #FFF !important;
+}
+
+/* line 735, sass/style.scss */
+.checklist-icon {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 20px 0 0 70px;
+}
+
+/* line 744, sass/style.scss */
+.bullets ul {
+  padding: 0 0 0 20px;
+  margin: 0;
+  color: #FFF;
+}
+/* line 750, sass/style.scss */
+.bullets ul li {
+  margin-bottom: 8px;
+}
+
+/* line 755, sass/style.scss */
+.calendar {
+  padding: 5px 30px;
+  border: 1px solid #72c0f1;
+  width: 60px;
+  float: left;
+  border-radius: 5px;
+  margin: 0 8px;
+}
+
+/* line 765, sass/style.scss */
+.calendar p,
+.calendar a {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* line 773, sass/style.scss */
+.authors {
+  height: 480px;
+}
+
+/* line 777, sass/style.scss */
+.countdowntimer {
+  margin-left: 175px;
+}
+
+/* line 781, sass/style.scss */
+.testi-align ._testimonial {
+  width: 410px;
+}
+
+/* line 785, sass/style.scss */
+.strike {
+  text-decoration: line-through;
+}
+
+/* End Webinar access */
+/* LP */
+/* line 795, sass/style.scss */
+.header-lp {
+  background: url(images/lp/header-bg.jpg) no-repeat 0 0 black;
+  width: 100%;
+  background-position: center;
+}
+
+/* line 801, sass/style.scss */
+.header-lp ._email .stButton .stBubble_count {
+  background: #FFF !important;
+}
+
+/* line 805, sass/style.scss */
+.header-lp .count {
+  background: #FFF !important;
+}
+
+/* line 809, sass/style.scss */
+.green-bg {
+  background: #2fa6b2;
+  color: #FFF !important;
+}
+
+/* line 814, sass/style.scss */
+.signup-form {
+  margin-left: 45px;
+  margin-top: 0px;
+}
+
+/* line 819, sass/style.scss */
+.signup-form-narrow form button {
+  background: #ffce2a;
+  font-size: 2.4rem;
+  color: #333;
+  padding: 18px;
+  width: 305px;
+  margin: 10px 0;
+  height: 65px;
+}
+
+/* line 830, sass/style.scss */
+.signup-form-narrow form input[type="text"],
+.signup-form-narrow form input[type="email"] {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+  padding: 12px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 20px;
+  font-size: 1.8rem;
+  width: 313px;
+  margin: 5px 0;
+}
+
+/* line 845, sass/style.scss */
+.signup-form-narrow form li {
+  display: inline-block;
+  padding: 0 20px 0 0;
+}
+
+/* line 850, sass/style.scss */
+.privacy-narrow {
+  color: #34a6b4;
+  margin: 10px 0 0 90px;
+}
+
+/* line 855, sass/style.scss */
+.privacy-narrow a {
+  color: #34a6b4 !important;
+}
+
+/* line 859, sass/style.scss */
+.signup-box {
+  background: rgba(255, 255, 255, 0.8);
+  width: 320px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 10px 10px 20px 25px;
+}
+
+/* line 869, sass/style.scss */
+.signup-box h4,
+.signup-box p {
+  margin-left: -20px;
+}
+
+/* line 873, sass/style.scss */
+.lp-gradient {
+  background: #1e5799;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(30, 87, 153, 0) 0%, #02090f 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(30, 87, 153, 0)), color-stop(100%, #02090f));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(30, 87, 153, 0) 0%, #02090f 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(30, 87, 153, 0) 0%, #02090f 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(30, 87, 153, 0) 0%, #02090f 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 0%, #02090f 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(30, 87, 153, 0)', endColorstr='#081e25',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 884, sass/style.scss */
+.testimonial-box-lp {
+  background: #313131;
+  padding: 20px 30px 35px 30px;
+  width: 250px;
+  margin-left: 10px;
+  min-height: 192px;
+}
+
+/* End LP */
+/* Omvana VSL */
+/* line 899, sass/style.scss */
+.omvana-ordermenu {
+  width: 980px;
+  border: 2px solid #68b8da;
+  margin: 0 auto;
+  background: #f9f9f9;
+}
+
+/* line 906, sass/style.scss */
+.testimonial-ordermenu {
+  background: #EEE;
+  margin: 0 0 20px 20px;
+  padding: 1px 20px 20px;
+  overflow: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+/* line 917, sass/style.scss */
+.billed-monthly, .billed-yearly {
+  width: 200px;
+  float: left;
+}
+
+/* line 922, sass/style.scss */
+.billed-monthly {
+  background: #fafafa;
+  border: solid 1px #68b8da;
+  border-right: none;
+  margin-top: 20px;
+  padding: 20px 15px 20px 15px;
+}
+
+/* line 930, sass/style.scss */
+.billed-yearly {
+  border: solid 1px #68b8da;
+  background: #FFF;
+  box-shadow: -10px 0px 10px 1px rgba(170, 170, 170, 0.2);
+  padding: 40px 15px 20px 15px;
+}
+
+/* line 938, sass/style.scss */
+.oldprice,
+._ordermenu .oldprice {
+  display: inline;
+  position: relative;
+  color: #000;
+}
+
+/* line 945, sass/style.scss */
+.oldprice em,
+._ordermenu .oldprice em {
+  background: #900;
+  width: 89px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: -6px;
+}
+
+/* line 956, sass/style.scss */
+._ordermenu h1,
+._ordermenu .oldprice {
+  font-size: 34px;
+  color: #333;
+}
+
+/* End Omvana VSL */

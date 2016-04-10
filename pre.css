@@ -1,0 +1,3852 @@
+/* $override http://ignite.mamp/_ignite/pre.css */
+@import url("http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
+/* line 111, sass/_mixins.scss */
+.share span._facebook, .share span._gplus, .share span._tweet, .share span._stumble, .share span._pinterest {
+  background: url('images/icons-sb01f7f6ff1.png');
+}
+
+/* line 69, sass/pre.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 70, sass/pre.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 71, sass/pre.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 72, sass/pre.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 74, sass/pre.scss */
+html {
+  font-size: 62.5%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 75, sass/pre.scss */
+body {
+  margin: 0;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.431;
+}
+
+/* line 76, sass/pre.scss */
+body, button, input, select, textarea {
+  font-family: sans-serif;
+  color: #222;
+}
+
+/* line 78, sass/pre.scss */
+:-moz-selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 79, sass/pre.scss */
+:selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 80, sass/pre.scss */
+body, button, input, select, textarea {
+  font-family: sans-serif;
+  color: #222;
+}
+
+/* line 81, sass/pre.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 82, sass/pre.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 83, sass/pre.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 84, sass/pre.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 85, sass/pre.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 86, sass/pre.scss */
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 87, sass/pre.scss */
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 88, sass/pre.scss */
+pre, code, kbd, samp {
+  font-family: monospace, monospace;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* line 89, sass/pre.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 90, sass/pre.scss */
+q {
+  quotes: none;
+}
+
+/* line 91, sass/pre.scss */
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 92, sass/pre.scss */
+small {
+  font-size: 85%;
+}
+
+/* line 93, sass/pre.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 94, sass/pre.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 95, sass/pre.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 96, sass/pre.scss */
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+
+/* line 97, sass/pre.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 98, sass/pre.scss */
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 99, sass/pre.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+/* line 100, sass/pre.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 101, sass/pre.scss */
+figure {
+  margin: 0;
+}
+
+/* line 102, sass/pre.scss */
+form {
+  margin: 0;
+}
+
+/* line 103, sass/pre.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 104, sass/pre.scss */
+label {
+  cursor: pointer;
+}
+
+/* line 105, sass/pre.scss */
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0;
+}
+
+/* line 106, sass/pre.scss */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 107, sass/pre.scss */
+button, input {
+  line-height: normal;
+  *overflow: visible;
+}
+
+/* line 108, sass/pre.scss */
+table button, table input {
+  *overflow: auto;
+}
+
+/* line 109, sass/pre.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+/* line 110, sass/pre.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+}
+
+/* line 111, sass/pre.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 112, sass/pre.scss */
+input[type="search"]:-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 113, sass/pre.scss */
+button:-moz-focus-inner, input:-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 114, sass/pre.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+/* line 116, sass/pre.scss */
+input:invalid, textarea:invalid {
+  background-color: #f0dddd;
+}
+
+/* line 117, sass/pre.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 118, sass/pre.scss */
+td {
+  vertical-align: top;
+}
+
+/* line 119, sass/pre.scss */
+br {
+  display: none;
+}
+
+/* line 121, sass/pre.scss */
+html {
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 127, sass/pre.scss */
+body {
+  background: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+/* line 136, sass/pre.scss */
+p {
+  margin-bottom: 0;
+  padding-bottom: 1.5em;
+}
+
+/* line 142, sass/pre.scss */
+header {
+  background: #f2f2f2;
+  display: block;
+  position: relative;
+}
+/* line 146, sass/pre.scss */
+header nav {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/* line 154, sass/pre.scss */
+header nav a {
+  line-height: 1em;
+  padding: 0.7em 0 0.5em;
+  text-decoration: none;
+  color: #777;
+  text-transform: uppercase;
+  text-shadow: 0 0 2px #fcfcfc;
+  display: block;
+  float: left;
+  -webkit-transition: all 0.2s linear 2s linear;
+  -moz-transition: all 0.2s linear 2s linear;
+  -o-transition: all 0.2s linear 2s linear;
+  -ms-transition: all 0.2s linear 2s linear;
+  transition: all 0.2s linear 2s linear;
+}
+/* line 165, sass/pre.scss */
+header nav a:visited {
+  color: #777;
+}
+/* line 169, sass/pre.scss */
+header nav a:hover {
+  color: #000;
+  text-shadow: 0 0 2px #CCC;
+  text-decoration: none;
+}
+/* line 176, sass/pre.scss */
+header nav ul, header nav li {
+  list-style: none;
+  line-height: 0;
+  display: inline-block;
+}
+/* line 183, sass/pre.scss */
+header nav ul li {
+  margin: 0 1em;
+  margin: 0 1rem;
+}
+/* line 186, sass/pre.scss */
+header nav ul li:last-child {
+  margin-right: 0;
+}
+/* line 193, sass/pre.scss */
+header ._wrapper {
+  padding: 32px 0 10px;
+}
+
+/* line 202, sass/pre.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: normal;
+  line-height: 1.2em;
+  color: #333333;
+}
+
+/* line 210, sass/pre.scss */
+._row h1, ._row h2, ._row h3, ._row h4, ._row h5, ._row h6 {
+  margin-bottom: 4.8px;
+  margin-top: 25.6px;
+}
+/* line 215, sass/pre.scss */
+._row h1 {
+  font-size: 32px;
+  font-size: 3.2rem;
+}
+/* line 221, sass/pre.scss */
+._row h2 {
+  font-size: 28px;
+  font-size: 2.8rem;
+}
+/* line 227, sass/pre.scss */
+._row h3 {
+  font-size: 26px;
+  font-size: 2.6rem;
+}
+/* line 233, sass/pre.scss */
+._row h4 {
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+/* line 239, sass/pre.scss */
+._row h5 {
+  font-size: 21px;
+  font-size: 2.1rem;
+}
+/* line 245, sass/pre.scss */
+._row h6 {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+/* line 251, sass/pre.scss */
+._row p {
+  line-height: 1.5em;
+}
+
+/* line 259, sass/pre.scss */
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+/* line 262, sass/pre.scss */
+a:visited {
+  color: #0088cc;
+}
+/* line 266, sass/pre.scss */
+a:hover {
+  color: #06e;
+  text-decoration: underline;
+}
+/* line 271, sass/pre.scss */
+a:focus {
+  outline: thin dotted;
+}
+/* line 275, sass/pre.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 284, sass/pre.scss */
+hr {
+  border: none;
+  display: block;
+  background: none;
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+
+/* line 293, sass/pre.scss */
+a.hr {
+  float: left;
+  display: block;
+  border-bottom: 1px solid #EEE;
+  z-index: 0;
+  width: 100%;
+}
+
+/* line 301, sass/pre.scss */
+a.hr.dashed {
+  border-bottom: 2px dashed #EEE;
+}
+
+/* line 304, sass/pre.scss */
+a.hr.stepdown,
+a.hr.stepup,
+a.hr.curvedown,
+a.hr.curveup {
+  border: none;
+  background: url(images/sprite.png) no-repeat 0 -213px;
+  height: 71px;
+  width: 980px;
+  margin-left: -10px;
+  margin-bottom: -71px;
+}
+
+/* line 315, sass/pre.scss */
+a.hr.stepup {
+  background-position: 0 -284px;
+  margin-bottom: 0;
+  margin-top: -71px;
+}
+
+/* line 320, sass/pre.scss */
+a.hr.curvedown {
+  background-position: 0 -143px;
+  height: 35px;
+  margin-bottom: 0;
+}
+
+/* line 325, sass/pre.scss */
+a.hr.curveup {
+  background-position: 0 -178px;
+  height: 35px;
+  margin-bottom: 0;
+}
+
+/* line 336, sass/pre.scss */
+.button, form button {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #d9d9d9));
+  display: inline-block;
+  border: 1px solid #C9C9C9;
+  border-top: 1px solid #979797;
+  border-bottom: 1px solid #B8B8B8;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 0 2px 0 #FFF;
+  padding: 5px 12px 7px;
+  cursor: pointer;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  -webkit-box-shadow: inset 1px 0 0 #f6f6f7 rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: inset 1px 0 0 #f6f6f7 rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: inset 1px 0 0 #f6f6f7 rgba(0, 0, 0, 0.16);
+  -o-box-shadow: inset 1px 0 0 #f6f6f7 rgba(0, 0, 0, 0.16);
+  -ms-box-shadow: inset 1px 0 0 #f6f6f7 rgba(0, 0, 0, 0.16);
+  box-shadow: inset 1px 0 0 #f6f6f7 rgba(0, 0, 0, 0.16);
+}
+
+/* line 355, sass/pre.scss */
+.btn {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  padding: 4px 10px 4px;
+  margin-bottom: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, white, #e6e6e6);
+  background-image: -ms-linear-gradient(top, white, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, white, #e6e6e6);
+  background-image: -o-linear-gradient(top, white, #e6e6e6);
+  background-image: linear-gradient(top, white, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+  border: 1px solid #cccccc;
+  border-bottom-color: #b3b3b3;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  *margin-left: .3em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 390, sass/pre.scss */
+.btn.blue {
+  background-image: linear-gradient(top, #62b9ec 0%, #36a8ea 1%, #127fd2 100%);
+  background-image: -o-linear-gradient(top, #62b9ec 0%, #36a8ea 1%, #127fd2 100%);
+  background-image: -moz-linear-gradient(top, #62b9ec 0%, #36a8ea 1%, #127fd2 100%);
+  background-image: -webkit-linear-gradient(top, #62b9ec 0%, #36a8ea 1%, #127fd2 100%);
+  background-image: -ms-linear-gradient(top, #62b9ec 0%, #36a8ea 1%, #127fd2 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #62b9ec), color-stop(0.01, #36a8ea), color-stop(1, #127fd2));
+  color: #FFF;
+  text-shadow: -2px -2px 2px rgba(0, 0, 0, 0.16);
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1992DA #168BD3 #00599D;
+}
+
+/* line 411, sass/pre.scss */
+.btn.large {
+  color: #333333;
+  padding: 9px 14px;
+  font-size: 15px;
+  line-height: normal;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 420, sass/pre.scss */
+.btn.blue {
+  color: #FFF !important;
+  text-shadow: -1px -1px 2px rgba(0, 0, 0, 0.31);
+}
+
+/* line 425, sass/pre.scss */
+._order .btn.large {
+  padding: 7px 25px 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* line 431, sass/pre.scss */
+._lock {
+  padding-top: 2px;
+  padding-right: 2px;
+  vertical-align: text-top;
+}
+
+/* line 437, sass/pre.scss */
+.btn.small {
+  color: #333333;
+  padding: 5px 9px;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+/* line 444, sass/pre.scss */
+.btn.mini {
+  color: #333333;
+  padding: 2px 6px;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+/* line 451, sass/pre.scss */
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  background-color: #e6e6e6;
+}
+
+/* line 459, sass/pre.scss */
+.btn.blue:hover,
+.btn.blue:active,
+.btn.blue.active,
+.btn.blue.disabled,
+.btn.blue[disabled] {
+  background-color: #0351B7;
+  background-image: linear-gradient(top, #56a4dc 0%, #2f90d5 1%, #0351b7 99%, #1059b9 100%);
+  background-image: -o-linear-gradient(top, #56a4dc 0%, #2f90d5 1%, #0351b7 99%, #1059b9 100%);
+  background-image: -moz-linear-gradient(top, #56a4dc 0%, #2f90d5 1%, #0351b7 99%, #1059b9 100%);
+  background-image: -webkit-linear-gradient(top, #56a4dc 0%, #2f90d5 1%, #0351b7 99%, #1059b9 100%);
+  background-image: -ms-linear-gradient(top, #56a4dc 0%, #2f90d5 1%, #0351b7 99%, #1059b9 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #56a4dc), color-stop(0.01, #2f90d5), color-stop(0.99, #0351b7), color-stop(1, #1059b9));
+  border-color: #1D6699 #165E95 #003481;
+}
+
+/* line 483, sass/pre.scss */
+.btn:active,
+.btn.active {
+  background-color: #cccccc \9;
+}
+
+/* line 488, sass/pre.scss */
+.btn.blue:active,
+.btn.blue.active {
+  background-color: #1B94DA \9;
+}
+
+/* line 493, sass/pre.scss */
+.btn:first-child {
+  *margin-left: 0;
+}
+
+/* line 497, sass/pre.scss */
+.btn:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #e6e6e6;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  -ms-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+
+/* line 505, sass/pre.scss */
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 511, sass/pre.scss */
+.btn.active,
+.btn:active {
+  background-image: none;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: #e6e6e6;
+  background-color: #d9d9d9 \9;
+  outline: 0;
+}
+
+/* line 522, sass/pre.scss */
+.btn.blue.active,
+.btn.blue:active {
+  background-image: linear-gradient(top, #1b94da 0%, #0074c7 100%);
+  background-image: -o-linear-gradient(top, #1b94da 0%, #0074c7 100%);
+  background-image: -moz-linear-gradient(top, #1b94da 0%, #0074c7 100%);
+  background-image: -webkit-linear-gradient(top, #1b94da 0%, #0074c7 100%);
+  background-image: -ms-linear-gradient(top, #1b94da 0%, #0074c7 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1b94da), color-stop(1, #0074c7));
+  -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.31);
+  -o-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.31);
+  -ms-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.31);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.31);
+  background-color: #0074c7;
+  background-color: #1B94DA \9;
+  outline: 0;
+  border-color: #084985 #084C87 #003F81;
+}
+
+/* line 543, sass/pre.scss */
+.btn.disabled,
+.btn[disabled] {
+  cursor: default;
+  background-image: none;
+  background-color: #e6e6e6;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 558, sass/pre.scss */
+form {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+}
+/* line 563, sass/pre.scss */
+form ol, form li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 569, sass/pre.scss */
+form label {
+  font-weight: bold;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 0.1em;
+}
+/* line 580, sass/pre.scss */
+form input[type="text"], form input[type="email"] {
+  padding: 6px 3px 4px;
+  border: none;
+  font-size: 1em;
+  width: 260px;
+  -webkit-box-shadow: inset 0 1px 4px 0 #888888;
+  -webkit-box-shadow: inset 0 1px 4px 0 #888888;
+  -moz-box-shadow: inset 0 1px 4px 0 #888888;
+  -o-box-shadow: inset 0 1px 4px 0 #888888;
+  -ms-box-shadow: inset 0 1px 4px 0 #888888;
+  box-shadow: inset 0 1px 4px 0 #888888;
+}
+
+/* line 591, sass/pre.scss */
+._col form ol,
+._col form ol li {
+  margin: 0;
+}
+
+@-webkit-keyframes rotate {
+  /* line 600, sass/pre.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 603, sass/pre.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rotate {
+  /* line 609, sass/pre.scss */
+  from {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 612, sass/pre.scss */
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  /* line 618, sass/pre.scss */
+  from {
+    transform: rotate(0deg);
+  }
+
+  /* line 621, sass/pre.scss */
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* line 629, sass/pre.scss */
+._row {
+  clear: both;
+  overflow: auto;
+  overflow: hidden;
+  /* temporary fix for Chrome Version 21.0.1180.15 beta */
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 635, sass/pre.scss */
+._row.stepup {
+  background: url(images/stepup.png) no-repeat bottom center;
+  margin-bottom: 0;
+  padding-bottom: 36px;
+}
+/* line 640, sass/pre.scss */
+._row.stepdown {
+  background: url(images/stepdown.png) no-repeat bottom center;
+  margin-bottom: -36px;
+  padding-bottom: 102px;
+}
+/* line 645, sass/pre.scss */
+._row._float {
+  overflow: visible;
+  float: left;
+}
+
+/* line 651, sass/pre.scss */
+._col {
+  float: left;
+}
+/* line 653, sass/pre.scss */
+._col br {
+  display: block;
+}
+/* line 657, sass/pre.scss */
+._col > * {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 662, sass/pre.scss */
+._col ul, ._col ol {
+  margin-bottom: 2em;
+}
+/* line 666, sass/pre.scss */
+._col > ul {
+  margin-left: 1.6em;
+}
+/* line 669, sass/pre.scss */
+._col > ul._split {
+  list-style: none;
+  margin-left: 0;
+}
+/* line 672, sass/pre.scss */
+._col > ul._split li {
+  display: inline-block;
+  width: 42%;
+}
+/* line 679, sass/pre.scss */
+._col > ul._crossed li {
+  background-image: url(images/cross.png);
+}
+/* line 684, sass/pre.scss */
+._col > ul._checked, ._col > ul._crossed {
+  list-style: none;
+  margin-left: 0;
+}
+/* line 687, sass/pre.scss */
+._col > ul._checked li, ._col > ul._crossed li {
+  padding-left: 1.6em;
+  background: url(images/check.png) no-repeat 0 1px;
+}
+/* line 694, sass/pre.scss */
+._col > ol {
+  margin-left: 1.9em;
+}
+/* line 698, sass/pre.scss */
+._col li {
+  margin-bottom: 1em;
+}
+
+/* line 704, sass/pre.scss */
+._wide > ._col {
+  float: none;
+  overflow: auto;
+}
+
+/* line 709, sass/pre.scss */
+._centered > ._col {
+  margin: 0 auto;
+  float: none;
+}
+
+/* line 715, sass/pre.scss */
+._phi ._article {
+  min-width: 595px;
+  width: 61%;
+}
+/* line 720, sass/pre.scss */
+._phi ._aside {
+  min-width: 365px;
+  width: 38%;
+}
+
+/* line 727, sass/pre.scss */
+._quarters ._article {
+  min-width: 720px;
+  width: 75%;
+}
+/* line 732, sass/pre.scss */
+._quarters ._aside {
+  min-width: 240px;
+  width: 25%;
+}
+
+/* line 739, sass/pre.scss */
+._pareto ._article {
+  min-width: 768px;
+  width: 80%;
+}
+/* line 744, sass/pre.scss */
+._pareto ._aside {
+  min-width: 192px;
+  width: 20%;
+}
+
+/* line 750, sass/pre.scss */
+._bi ._col {
+  width: 50%;
+}
+
+/* line 755, sass/pre.scss */
+._tri ._col {
+  min-width: 33%;
+  width: 320px;
+}
+
+/* line 760, sass/pre.scss */
+._quad ._col {
+  min-width: 240px;
+  width: 25%;
+}
+
+/* line 765, sass/pre.scss */
+._penta ._col {
+  min-width: 192px;
+  width: 20%;
+}
+
+/* line 770, sass/pre.scss */
+._colophon {
+  min-height: 80px;
+  position: relative;
+  margin-left: 112px;
+  margin-bottom: 16px;
+  border-left: 1px solid #DDD;
+  font-size: 13px;
+  font-size: 1.3rem;
+  padding: 1px 0 1px 20px;
+}
+/* line 779, sass/pre.scss */
+._colophon p {
+  line-height: 1em;
+  color: #555;
+}
+/* line 785, sass/pre.scss */
+._colophon p span._site a:first-child {
+  margin-left: 0;
+}
+/* line 791, sass/pre.scss */
+._colophon p span._links {
+  color: #CCC;
+}
+/* line 793, sass/pre.scss */
+._colophon p span._links a {
+  margin: 0 10px 0;
+}
+/* line 800, sass/pre.scss */
+._colophon a {
+  color: #08C;
+  text-decoration: none;
+}
+/* line 803, sass/pre.scss */
+._colophon a:hover {
+  text-decoration: underline;
+}
+/* line 808, sass/pre.scss */
+._colophon ._logo {
+  background: url(images/sprite.png) no-repeat 0 -20px;
+  display: block;
+  width: 93px;
+  height: 60px;
+  text-indent: -999px;
+  left: -113px;
+  top: 15px;
+  position: absolute;
+}
+
+/* line 821, sass/pre.scss */
+._main ._wrapper,
+.frame ._main ._wrapper {
+  background: #FFF;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* line 828, sass/pre.scss */
+._main ._wrapper {
+  padding: 0 10px 1px;
+  margin-bottom: 1em;
+  margin-top: 10px;
+}
+
+/* line 834, sass/pre.scss */
+._directory {
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.62);
+}
+/* line 838, sass/pre.scss */
+._directory a, ._directory a:visited {
+  color: #777;
+}
+/* line 843, sass/pre.scss */
+._directory a:hover {
+  color: #555;
+}
+/* line 848, sass/pre.scss */
+._directory._wrapper {
+  padding: 15px 10px 0;
+  margin-bottom: 1em;
+  border: 1px solid #DDD;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 855, sass/pre.scss */
+._directory ._col {
+  width: 320px;
+  overflow: hidden;
+}
+/* line 858, sass/pre.scss */
+._directory ._col ul, ._directory ._col ul li {
+  list-style: none;
+  margin: 0;
+  font-size: 12px;
+}
+/* line 864, sass/pre.scss */
+._directory ._col ul {
+  margin-top: 0.8em;
+  margin-bottom: 0;
+}
+/* line 867, sass/pre.scss */
+._directory ._col ul li {
+  margin-bottom: 0.5em;
+}
+/* line 869, sass/pre.scss */
+._directory ._col ul li:last-child {
+  margin-bottom: 0;
+}
+/* line 876, sass/pre.scss */
+._directory h6 {
+  color: #666666;
+  margin: 0;
+  line-height: 1;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* line 886, sass/pre.scss */
+._wrapper {
+  margin: 0 auto;
+  width: 960px;
+  position: relative;
+}
+/* line 890, sass/pre.scss */
+._wrapper:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  visibility: hidden;
+  height: 0;
+}
+
+/* line 903, sass/pre.scss */
+._optin {
+  background: #eeeeee url(/images/optin.jpg) no-repeat 0 50%;
+  position: relative;
+  overflow: visible;
+  float: left;
+  margin-bottom: 10px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 2px 0 #999999;
+  -moz-box-shadow: 0 1px 2px 0 #999999;
+  -o-box-shadow: 0 1px 2px 0 #999999;
+  -ms-box-shadow: 0 1px 2px 0 #999999;
+  box-shadow: 0 1px 2px 0 #999999;
+}
+/* line 912, sass/pre.scss */
+._optin > p {
+  margin: 0;
+}
+/* line 916, sass/pre.scss */
+._optin .stopwatch {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  z-index: 8;
+  transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+}
+/* line 924, sass/pre.scss */
+._optin .mainhand {
+  position: absolute;
+  left: 22px;
+  top: 83px;
+  z-index: 10;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 60s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  animation-name: rotate;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+/* line 932, sass/pre.scss */
+._optin .smallhand {
+  position: absolute;
+  left: 69px;
+  top: 103px;
+  z-index: 9;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 1800s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 1800s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  animation-name: rotate;
+  animation-duration: 1800s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+/* line 941, sass/pre.scss */
+._optin ._article h3, ._optin ._article p {
+  margin-left: 185px;
+  margin-right: 60px;
+}
+/* line 946, sass/pre.scss */
+._optin ._article h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+/* line 955, sass/pre.scss */
+._optin ._aside h4 {
+  margin-bottom: 15px;
+}
+/* line 959, sass/pre.scss */
+._optin ._aside p {
+  margin: 0;
+  padding-top: 20px;
+}
+/* line 965, sass/pre.scss */
+._optin ._aside form {
+  margin-bottom: 20px;
+}
+/* line 968, sass/pre.scss */
+._optin ._aside form button {
+  border: none;
+  color: #5A4319;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+  margin-top: 10px;
+  padding: 14px 20px;
+  background: #DFA329;
+  background-image: linear-gradient(top, #fcec8f 0%, #ebca67 1%, #e6af3a 49%, #dfa229 50%, #d4850e 99%, #9f0f02 100%);
+  background-image: -o-linear-gradient(top, #fcec8f 0%, #ebca67 1%, #e6af3a 49%, #dfa229 50%, #d4850e 99%, #9f0f02 100%);
+  background-image: -moz-linear-gradient(top, #fcec8f 0%, #ebca67 1%, #e6af3a 49%, #dfa229 50%, #d4850e 99%, #9f0f02 100%);
+  background-image: -webkit-linear-gradient(top, #fcec8f 0%, #ebca67 1%, #e6af3a 49%, #dfa229 50%, #d4850e 99%, #9f0f02 100%);
+  background-image: -ms-linear-gradient(top, #fcec8f 0%, #ebca67 1%, #e6af3a 49%, #dfa229 50%, #d4850e 99%, #9f0f02 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fcec8f), color-stop(0.01, #ebca67), color-stop(0.49, #e6af3a), color-stop(0.5, #dfa229), color-stop(0.99, #d4850e), color-stop(1, #9f0f02));
+  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.2s easeOut;
+  -moz-transition: all 0.2s easeOut;
+  -o-transition: all 0.2s easeOut;
+  -ms-transition: all 0.2s easeOut;
+  transition: all 0.2s easeOut;
+}
+/* line 984, sass/pre.scss */
+._optin ._aside form button:hover {
+  -webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 990, sass/pre.scss */
+._optin ._aside form ol > li {
+  padding-bottom: 10px;
+}
+/* line 992, sass/pre.scss */
+._optin ._aside form ol > li:last-child {
+  padding-bottom: 0;
+}
+
+/* line 1005, sass/pre.scss */
+.elipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* line 1015, sass/pre.scss */
+._helpbar a,
+._helpbar a:visited,
+._helpbar {
+  color: #555;
+}
+
+/* line 1021, sass/pre.scss */
+._helpbar a,
+._helpbar a:hover {
+  color: #555;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 1028, sass/pre.scss */
+.hb_call a {
+  cursor: text;
+}
+
+/* line 1032, sass/pre.scss */
+.hb_help {
+  position: relative;
+}
+
+/* line 1036, sass/pre.scss */
+.hb_call:before,
+.hb_help > a:before,
+.hb_help > a:after {
+  content: ' ';
+  background: url(images/sprite.png) no-repeat 0 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: bottom;
+  margin-right: 3px;
+}
+
+/* line 1048, sass/pre.scss */
+.hb_help > a:after {
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+/* line 1053, sass/pre.scss */
+.hb_help > a {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 2px;
+  border: 1px solid #CCC;
+  padding: 5px 0 7px 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(top, whitesmoke 0%, #f1f1f1 100%);
+  background-image: -o-linear-gradient(top, whitesmoke 0%, #f1f1f1 100%);
+  background-image: -moz-linear-gradient(top, whitesmoke 0%, #f1f1f1 100%);
+  background-image: -webkit-linear-gradient(top, whitesmoke 0%, #f1f1f1 100%);
+  background-image: -ms-linear-gradient(top, whitesmoke 0%, #f1f1f1 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, whitesmoke), color-stop(1, #f1f1f1));
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+/* line 1075, sass/pre.scss */
+.hb_help > a:hover {
+  color: #111;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  -o-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  -ms-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* line 1079, sass/pre.scss */
+.hb_help > a:active,
+.hb_help > a._a {
+  background-image: linear-gradient(top, #e5e5e5 0%, #e1e1e1 100%);
+  background-image: -o-linear-gradient(top, #e5e5e5 0%, #e1e1e1 100%);
+  background-image: -moz-linear-gradient(top, #e5e5e5 0%, #e1e1e1 100%);
+  background-image: -webkit-linear-gradient(top, #e5e5e5 0%, #e1e1e1 100%);
+  background-image: -ms-linear-gradient(top, #e5e5e5 0%, #e1e1e1 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e5e5e5), color-stop(1, #e1e1e1));
+  -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.08);
+  -o-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.08);
+  -ms-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.08);
+}
+
+/* line 1097, sass/pre.scss */
+.hb_help > a:before {
+  background-position: -20px 0;
+}
+
+/* line 1101, sass/pre.scss */
+.hb_help > a:after {
+  background-position: -40px 0;
+}
+
+/* line 1106, sass/pre.scss */
+._helpbar {
+  position: absolute;
+  top: -5px;
+  right: 0;
+}
+/* line 1111, sass/pre.scss */
+._helpbar > ul, ._helpbar > ul > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 0;
+}
+/* line 1117, sass/pre.scss */
+._helpbar a {
+  font-weight: bold;
+  color: #555;
+}
+/* line 1120, sass/pre.scss */
+> ._helpbar a {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 2px;
+  border: 1px solid #CCC;
+  padding: 5px 0 7px 10px;
+  background-image: linear-gradient(top, whitesmoke 0%, #f1f1f1 100%);
+  background-image: -o-linear-gradient(top, whitesmoke 0%, #f1f1f1 100%);
+  background-image: -moz-linear-gradient(top, whitesmoke 0%, #f1f1f1 100%);
+  background-image: -webkit-linear-gradient(top, whitesmoke 0%, #f1f1f1 100%);
+  background-image: -ms-linear-gradient(top, whitesmoke 0%, #f1f1f1 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, whitesmoke), color-stop(1, #f1f1f1));
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+/* line 1135, sass/pre.scss */
+> ._helpbar a:before {
+  background-position: -20px 0;
+}
+/* line 1139, sass/pre.scss */
+> ._helpbar a:after {
+  background-position: -40px 0;
+}
+/* line 1143, sass/pre.scss */
+> ._helpbar a:hover {
+  color: #111;
+  text-decoration: none;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  -o-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  -ms-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+}
+/* line 1151, sass/pre.scss */
+._helpbar a:hover {
+  text-decoration: none;
+}
+/* line 1155, sass/pre.scss */
+._helpbar a:active, ._helpbar a._a {
+  background-image: linear-gradient(top, #e5e5e5 0%, #e1e1e1 100%);
+  background-image: -o-linear-gradient(top, #e5e5e5 0%, #e1e1e1 100%);
+  background-image: -moz-linear-gradient(top, #e5e5e5 0%, #e1e1e1 100%);
+  background-image: -webkit-linear-gradient(top, #e5e5e5 0%, #e1e1e1 100%);
+  background-image: -ms-linear-gradient(top, #e5e5e5 0%, #e1e1e1 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e5e5e5), color-stop(1, #e1e1e1));
+  -webkit-box-shadow: inset 0 1px 2px 0px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: inset 0 1px 2px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0 1px 2px 0px rgba(0, 0, 0, 0.08);
+  -o-box-shadow: inset 0 1px 2px 0px rgba(0, 0, 0, 0.08);
+  -ms-box-shadow: inset 0 1px 2px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 1px 2px 0px rgba(0, 0, 0, 0.08);
+}
+
+/* line 1174, sass/pre.scss */
+._ddmenu,
+._ddmenu li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1181, sass/pre.scss */
+._ddmenu {
+  position: absolute;
+  top: 34px;
+  right: 2px;
+  background: #FFF;
+  z-index: 9999;
+  width: 260px;
+  border: 1px solid #CCC;
+  padding: 5px 20px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+/* line 1192, sass/pre.scss */
+._ddmenu li {
+  border-bottom: 1px solid #EEE;
+  padding: 15px 0 15px 30px;
+  position: relative;
+}
+/* line 1199, sass/pre.scss */
+._ddmenu li a:hover p {
+  text-decoration: underline;
+}
+/* line 1204, sass/pre.scss */
+._ddmenu li a p {
+  color: #08C;
+  font-weight: normal;
+  font-size: 0.14px;
+  font-size: 1.4rem;
+}
+/* line 1209, sass/pre.scss */
+._ddmenu li a p:after {
+  display: inline-block;
+  content: ' ';
+  width: 4px;
+  height: 7px;
+  background: url(images/sprite.png) no-repeat -93px -20px;
+  margin-left: 6px;
+  margin-bottom: 1px;
+}
+/* line 1221, sass/pre.scss */
+._ddmenu li h6 {
+  color: #555 !important;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1 !important;
+  font-weight: bold !important;
+  padding: 0;
+  margin: 0 0 0.2em;
+  text-shadow: 1px 1px 0 #FFF;
+}
+/* line 1232, sass/pre.scss */
+._ddmenu li p {
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+/* line 1238, sass/pre.scss */
+._ddmenu li p br {
+  display: block;
+}
+/* line 1244, sass/pre.scss */
+._ddmenu li._phone:before {
+  background: url(images/sprite.png) no-repeat -60px 0;
+}
+/* line 1248, sass/pre.scss */
+._ddmenu li._phone span {
+  color: #777;
+  display: block;
+  font-size: 24px;
+  font-size: 2.4rem;
+  padding: 0.6em  0 0.3em;
+}
+/* line 1258, sass/pre.scss */
+._ddmenu li._email:before {
+  background: url(images/sprite.png) no-repeat -80px 0;
+}
+/* line 1262, sass/pre.scss */
+._ddmenu li._faq:before {
+  background: url(images/sprite.png) no-repeat -100px 0;
+}
+/* line 1266, sass/pre.scss */
+._ddmenu li._track:before {
+  background: url(images/sprite.png) no-repeat -120px 0;
+}
+/* line 1270, sass/pre.scss */
+._ddmenu li._twt:before {
+  background: url(images/sprite.png) no-repeat -226px 0;
+}
+/* line 1274, sass/pre.scss */
+._ddmenu li:last-child {
+  border-bottom: none;
+}
+/* line 1278, sass/pre.scss */
+._ddmenu li:before {
+  content: ' ';
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 15px;
+}
+/* line 1289, sass/pre.scss */
+._ddmenu:after {
+  content: ' ';
+  background: url(images/sprite.png) 0 -80px;
+  display: block;
+  width: 300px;
+  height: 63px;
+  margin: 0 0 -5px -20px;
+}
+
+/* line 1303, sass/pre.scss */
+.box {
+  border: 1px solid #DDD;
+  padding: 10px 15px;
+  margin: 0 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 1309, sass/pre.scss */
+.box h1, .box h2, .box h3, .box h4, .box h5, .box h6, .box p {
+  margin-top: 0;
+}
+/* line 1313, sass/pre.scss */
+.box.dashed {
+  border: 2px dashed #CCC;
+}
+/* line 1317, sass/pre.scss */
+.box.note {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  background: #fefabc;
+  border: none;
+  z-index: 0;
+  position: relative;
+}
+/* line 1323, sass/pre.scss */
+.box.note:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 32px 32px 0;
+  border-style: solid;
+  border-color: #FFF #FFF #FEF39E #FEF39E;
+  /* change #FFF to background color */
+  background: #FFF;
+  -webkit-box-shadow: -1px 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -1px 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: -1px 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: -1px 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: -1px 1px 1px 0 rgba(0, 0, 0, 0.1);
+  display: block;
+  width: 0;
+  /* Firefox 3.0 damage limitation */
+}
+/* line 1341, sass/pre.scss */
+.box.aqua {
+  background-color: #E5E5E5;
+  margin-bottom: 2px;
+  background-image: linear-gradient(top, white 0%, #fefefe 1%, #e5e5e5 100%);
+  background-image: -o-linear-gradient(top, white 0%, #fefefe 1%, #e5e5e5 100%);
+  background-image: -moz-linear-gradient(top, white 0%, #fefefe 1%, #e5e5e5 100%);
+  background-image: -webkit-linear-gradient(top, white 0%, #fefefe 1%, #e5e5e5 100%);
+  background-image: -ms-linear-gradient(top, white 0%, #fefefe 1%, #e5e5e5 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(0.01, #fefefe), color-stop(1, #e5e5e5));
+  background-repeat: repeat-x;
+  background-size: 1px 140px;
+  text-shadow: 1px 1px 1px #FFF;
+  -webkit-box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 1356, sass/pre.scss */
+.box.recess {
+  border: none;
+  background-color: #F5F5F5;
+  -webkit-box-shadow: inset 0 1px 3px 0 #cccccc;
+  -webkit-box-shadow: inset 0 1px 3px 0 #cccccc;
+  -moz-box-shadow: inset 0 1px 3px 0 #cccccc;
+  -o-box-shadow: inset 0 1px 3px 0 #cccccc;
+  -ms-box-shadow: inset 0 1px 3px 0 #cccccc;
+  box-shadow: inset 0 1px 3px 0 #cccccc;
+}
+/* line 1362, sass/pre.scss */
+.box.pro {
+  background-color: #1e1e1e;
+  background-image: linear-gradient(top, #333333 0%, #3e3e3e 1%, #262626 50%, #1f1f1f 51%, #1e1e1e 99%, black 100%);
+  background-image: -o-linear-gradient(top, #333333 0%, #3e3e3e 1%, #262626 50%, #1f1f1f 51%, #1e1e1e 99%, black 100%);
+  background-image: -moz-linear-gradient(top, #333333 0%, #3e3e3e 1%, #262626 50%, #1f1f1f 51%, #1e1e1e 99%, black 100%);
+  background-image: -webkit-linear-gradient(top, #333333 0%, #3e3e3e 1%, #262626 50%, #1f1f1f 51%, #1e1e1e 99%, black 100%);
+  background-image: -ms-linear-gradient(top, #333333 0%, #3e3e3e 1%, #262626 50%, #1f1f1f 51%, #1e1e1e 99%, black 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #333333), color-stop(0.01, #3e3e3e), color-stop(0.5, #262626), color-stop(0.51, #1f1f1f), color-stop(0.99, #1e1e1e), color-stop(1, #1e1e1e));
+  background-repeat: repeat-x;
+  background-size: 1px 120px;
+  text-shadow: -1px -1px 1px #000000;
+}
+/* line 1374, sass/pre.scss */
+.box.pro h1, .box.pro h2, .box.pro h3, .box.pro h4, .box.pro h5, .box.pro h6 {
+  color: #CCC;
+}
+/* line 1378, sass/pre.scss */
+.box.pro p, .box.pro li {
+  color: #FFF;
+}
+/* line 1386, sass/pre.scss */
+.box.red p, .box.red li, .box.green p, .box.green li {
+  color: #000;
+}
+/* line 1390, sass/pre.scss */
+.box.red h1, .box.red h2, .box.red h3, .box.red h4, .box.red h5, .box.red h6, .box.green h1, .box.green h2, .box.green h3, .box.green h4, .box.green h5, .box.green h6 {
+  color: #CCC;
+}
+/* line 1395, sass/pre.scss */
+.box.red {
+  border: 1px solid #DB5259;
+  background: #F67579;
+  background-image: linear-gradient(top, #febbbb 0%, #fe9090 1%, #f67579 99%);
+  background-image: -o-linear-gradient(top, #febbbb 0%, #fe9090 1%, #f67579 99%);
+  background-image: -moz-linear-gradient(top, #febbbb 0%, #fe9090 1%, #f67579 99%);
+  background-image: -webkit-linear-gradient(top, #febbbb 0%, #fe9090 1%, #f67579 99%);
+  background-image: -ms-linear-gradient(top, #febbbb 0%, #fe9090 1%, #f67579 99%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #febbbb), color-stop(0.01, #fe9090), color-stop(0.99, #f67579));
+  background-repeat: repeat-x;
+  background-size: 1px 120px;
+  text-shadow: 1px 1px 1px #febbbb;
+}
+/* line 1409, sass/pre.scss */
+.box.green {
+  border: 1px solid #7CA831;
+  background: #a5c956;
+  background-image: linear-gradient(top, #d6ff81 0%, #9ed63f 1%, #a5c956 99%);
+  background-image: -o-linear-gradient(top, #d6ff81 0%, #9ed63f 1%, #a5c956 99%);
+  background-image: -moz-linear-gradient(top, #d6ff81 0%, #9ed63f 1%, #a5c956 99%);
+  background-image: -webkit-linear-gradient(top, #d6ff81 0%, #9ed63f 1%, #a5c956 99%);
+  background-image: -ms-linear-gradient(top, #d6ff81 0%, #9ed63f 1%, #a5c956 99%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d6ff81), color-stop(0.01, #9ed63f), color-stop(0.99, #a5c956));
+  background-repeat: repeat-x;
+  background-size: 1px 120px;
+  text-shadow: 1px 1px 1px #cdeb8e;
+}
+/* line 1423, sass/pre.scss */
+.box.blue {
+  border: 1px solid #5084B8;
+  background: #64A5E7;
+  background-image: linear-gradient(top, #bbd9f8 0%, #77b4f1 1%, #64a5e7 99%);
+  background-image: -o-linear-gradient(top, #bbd9f8 0%, #77b4f1 1%, #64a5e7 99%);
+  background-image: -moz-linear-gradient(top, #bbd9f8 0%, #77b4f1 1%, #64a5e7 99%);
+  background-image: -webkit-linear-gradient(top, #bbd9f8 0%, #77b4f1 1%, #64a5e7 99%);
+  background-image: -ms-linear-gradient(top, #bbd9f8 0%, #77b4f1 1%, #64a5e7 99%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #bbd9f8), color-stop(0.01, #77b4f1), color-stop(0.99, #64a5e7));
+  background-repeat: repeat-x;
+  background-size: 1px 120px;
+  text-shadow: 1px 1px 1px #BBD9F8;
+}
+/* line 1436, sass/pre.scss */
+.box.blue h1, .box.blue h2, .box.blue h3, .box.blue h4, .box.blue h5, .box.blue h6 {
+  color: #182F4A;
+}
+/* line 1440, sass/pre.scss */
+.box.blue p, .box.blue li {
+  color: #000;
+}
+
+/* line 1452, sass/pre.scss */
+.zen-box {
+  width: 1300px;
+  background: url(images/playlist/zen/particles.png) repeat scroll 0 -50px transparent;
+  margin: 0 -170px;
+  position: relative;
+}
+/* line 1459, sass/pre.scss */
+.zen-box #zen {
+  position: absolute;
+  top: 130px;
+  left: 610px;
+}
+/* line 1465, sass/pre.scss */
+.zen-box #player {
+  /* With display: none; it doesn't work on iOS, below an alternative */
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+/* line 1474, sass/pre.scss */
+.img-center {
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 1480, sass/pre.scss */
+#zen .button:active, #zen form button:active, form #zen button:active, #zen.play .button, #zen.play form button, form #zen.play button {
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  transform: scale(0.5);
+  background: #666666;
+  /* fallback */
+  background: black -webkit-gradient(radial, center top, 200, center top, 20, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.48)));
+  background: black -moz-radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0.28) 100%);
+  background: black -o-radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0.28) 100%);
+  background: black radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0.28) 100%);
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.5) 0 -4px 4px 1px, inset rgba(252, 255, 255, 0.2) 0 6px 4px -2px, rgba(0, 0, 0, 0.6) 0 4px 4px 1px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.5) 0 -4px 4px 1px, inset rgba(252, 255, 255, 0.2) 0 6px 4px -2px, rgba(0, 0, 0, 0.6) 0 4px 4px 1px;
+  -o-box-shadow: inset rgba(0, 0, 0, 0.5) 0 -4px 4px 1px, inset rgba(252, 255, 255, 0.2) 0 6px 4px -2px, rgba(0, 0, 0, 0.6) 0 4px 4px 1px;
+  box-shadow: inset rgba(0, 0, 0, 0.5) 0 -4px 4px 1px, inset rgba(252, 255, 255, 0.2) 0 6px 4px -2px, rgba(0, 0, 0, 0.6) 0 4px 4px 1px;
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0, 0.5, 0, 1), -webkit-border-radius 1s cubic-bezier(0, 0.5, 0, 1);
+  -moz-transition: -moz-transform 0.2s cubic-bezier(0, 0.5, 0, 1), -moz-border-radius 1s cubic-bezier(0, 0.5, 0, 1);
+  -o-transition: -o-transform 0.2s cubic-bezier(0, 0.5, 0, 1), -o-border-radius 1s cubic-bezier(0, 0.5, 0, 1);
+  transition: transform 0.2s cubic-bezier(0, 0.5, 0, 1), border-radius 1s cubic-bezier(0, 0.5, 0, 1);
+}
+
+/* line 1504, sass/pre.scss */
+#zen .button:active, #zen form button:active, form #zen button:active, #zen.play .button:active, #zen.play form button:active, form #zen.play button:active {
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+/* line 1511, sass/pre.scss */
+#zen {
+  position: relative;
+  display: inline-block;
+  padding: 2px;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background-color: #000;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0 2px 3px, rgba(0, 0, 0, 0.5) 0 -1px 2px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.8) 0 2px 3px, rgba(0, 0, 0, 0.5) 0 -1px 2px;
+  -o-box-shadow: rgba(255, 255, 255, 0.8) 0 2px 3px, rgba(0, 0, 0, 0.5) 0 -1px 2px;
+  box-shadow: rgba(255, 255, 255, 0.8) 0 2px 3px, rgba(0, 0, 0, 0.5) 0 -1px 2px;
+}
+/* line 1527, sass/pre.scss */
+#zen.play {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: -o-grab;
+  cursor: grab;
+}
+/* line 1532, sass/pre.scss */
+#zen.play:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: -o-grabbing;
+  cursor: grabbing;
+}
+/* line 1539, sass/pre.scss */
+#zen.play .circle {
+  background-color: #33bbff;
+  -webkit-transform: scale(1) rotate(0deg);
+  -moz-transform: scale(1) rotate(0deg);
+  -o-transform: scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
+  -webkit-transition: -webkit-transform 1s cubic-bezier(0, 0.5, 0, 1), background-color 0.6s linear;
+  -moz-transition: -moz-transform 1s cubic-bezier(0, 0.5, 0, 1), background-color 0.6s linear;
+  -o-transition: -o-transform 1s cubic-bezier(0, 0.5, 0, 1), background-color 0.6s linear;
+  transition: transform 1s cubic-bezier(0, 0.5, 0, 1), background-color 0.6s linear;
+  -webkit-animation: zen-rotate 20s linear infinite 1s;
+  -moz-animation: zen-rotate 20s linear infinite 1s;
+}
+/* line 1557, sass/pre.scss */
+#zen.play .button, #zen.play form button, form #zen.play button {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  transform: scale(0.54);
+  -ms-transform: scale(0.54);
+  -webkit-transform: scale(0.54);
+  -o-transform: scale(0.54);
+  -moz-transform: scale(0.54);
+}
+/* line 1565, sass/pre.scss */
+#zen.play .button .play, #zen.play form button .play, form #zen.play button .play {
+  opacity: 0;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+/* line 1577, sass/pre.scss */
+#zen .drag {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+/* line 1584, sass/pre.scss */
+#zen .buffer {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(images/playlist/zen/buffer.png) no-repeat;
+}
+/* line 1591, sass/pre.scss */
+#zen .buffer.loaded {
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
+}
+/* line 1601, sass/pre.scss */
+#zen .progress {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(images/playlist/zen/progress.png) no-repeat;
+  opacity: .85;
+}
+/* line 1610, sass/pre.scss */
+#zen .circle {
+  display: block;
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  margin: 1px;
+  border-radius: 50px;
+  background: url(images/playlist/zen/circle-still.png);
+  /* fallback */
+  background: transparent, -webkit-gradient(radial, center center, 35, center center, 15, from(transparent), to(black));
+  background: url(images/playlist/zen/circle-still.png) no-repeat, -moz-radial-gradient(50% 50%, black, black, transparent 50%);
+  background: url(images/playlist/zen/circle-still.png) no-repeat, -o-radial-gradient(50% 50%, black, black, transparent 50%);
+  background: url(images/playlist/zen/circle-still.png) no-repeat, radial-gradient(50% 50%, #000000, #000000, rgba(0, 0, 0, 0) 50%);
+  background-color: #77ff33;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.5) 0 0 5px 3px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.5) 0 0 5px 3px;
+  -o-box-shadow: inset rgba(0, 0, 0, 0.5) 0 0 5px 3px;
+  box-shadow: inset rgba(0, 0, 0, 0.5) 0 0 5px 3px;
+  -webkit-transform: scale(0.7) rotate(-180deg);
+  -moz-transform: scale(0.7) rotate(-180deg);
+  -o-transform: scale(0.7) rotate(-180deg);
+  transform: scale(0.7) rotate(-180deg);
+  -webkit-transition: all .5s ease-in;
+  -moz-transition: all .5s ease-in;
+  -o-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+/* line 1643, sass/pre.scss */
+#zen .button, #zen form button, form #zen button {
+  position: absolute;
+  display: inline-block;
+  border: none;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  cursor: pointer;
+  background: gray;
+  /* fallback */
+  background: black -webkit-gradient(radial, center top, 200, center top, 20, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.65)));
+  background: black -moz-radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.65) 20%, rgba(255, 255, 255, 0.35) 100%);
+  background: black -o-radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.65) 20%, rgba(255, 255, 255, 0.35) 100%);
+  background: black radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.65) 20%, rgba(255, 255, 255, 0.35) 100%);
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.2) 0 -3px 4px 1px, inset rgba(252, 255, 255, 0.4) 0 2px 8px 0px, rgba(0, 0, 0, 0.8) 0 3px 8px -1px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.2) 0 -3px 4px 1px, inset rgba(252, 255, 255, 0.4) 0 2px 8px 0px, rgba(0, 0, 0, 0.8) 0 3px 8px -1px;
+  -o-box-shadow: inset rgba(0, 0, 0, 0.2) 0 -3px 4px 1px, inset rgba(252, 255, 255, 0.4) 0 2px 8px 0px, rgba(0, 0, 0, 0.8) 0 3px 8px -1px;
+  box-shadow: inset rgba(0, 0, 0, 0.2) 0 -3px 4px 1px, inset rgba(252, 255, 255, 0.4) 0 2px 8px 0px, rgba(0, 0, 0, 0.8) 0 3px 8px -1px;
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 0.5, 0.5, 1), -webkit-border-radius 0.2s cubic-bezier(0, 0.5, 0, 1);
+  -moz-transition: -moz-transform 0.3s cubic-bezier(0, 0.5, 0.5, 1), -moz-border-radius 0.2s cubic-bezier(0, 0.5, 0, 1);
+  -o-transition: -o-transform 0.3s cubic-bezier(0, 0.5, 0.5, 1), -o-border-radius 0.2s cubic-bezier(0, 0.5, 0, 1);
+  transition: transform 0.3s cubic-bezier(0, 0.5, 0.5, 1), border-radius 0.2s cubic-bezier(0, 0.5, 0, 1);
+}
+/* line 1669, sass/pre.scss */
+#zen .button .pause, #zen form button .pause, form #zen button .pause {
+  opacity: 1;
+  -webkit-transition: opacity 1s cubic-bezier(0.5, 0.5, 0.5, 1);
+  -moz-transition: opacity 1s cubic-bezier(0.5, 0.5, 0.5, 1);
+  -o-transition: opacity 1s cubic-bezier(0.5, 0.5, 0.5, 1);
+  transition: opacity 1s cubic-bezier(0.5, 0.5, 0.5, 1);
+}
+/* line 1678, sass/pre.scss */
+#zen .button .icon, #zen form button .icon, form #zen button .icon {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  width: 100px;
+  height: 100px;
+}
+/* line 1685, sass/pre.scss */
+#zen .button .icon.pause, #zen form button .icon.pause, form #zen button .icon.pause {
+  opacity: 0;
+  background: url(images/playlist/zen/pause.png) no-repeat;
+}
+/* line 1690, sass/pre.scss */
+#zen .button .icon.play, #zen form button .icon.play, form #zen button .icon.play {
+  background: url(images/playlist/zen/play.png) no-repeat;
+  -webkit-transition: opacity 1s cubic-bezier(0.5, 0.5, 0.5, 1);
+  -moz-transition: opacity 1s cubic-bezier(0.5, 0.5, 0.5, 1);
+  -o-transition: opacity 1s cubic-bezier(0.5, 0.5, 0.5, 1);
+  transition: opacity 1s cubic-bezier(0.5, 0.5, 0.5, 1);
+}
+/* line 1702, sass/pre.scss */
+#zen:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  margin: -25px 0 0 -25px;
+  background: rgba(0, 0, 0, 0.05);
+  /* fallback */
+  background: -webkit-gradient(radial, center top, 150, center top, 0, from(rgba(255, 255, 255, 0.5)), to(rgba(128, 128, 128, 0.1)));
+  background: -moz-radial-gradient(50% 0 180deg, circle farthest-side, rgba(128, 128, 128, 0.05), rgba(255, 255, 255, 0.4));
+  background: -o-radial-gradient(50% 0 180deg, circle farthest-side, rgba(128, 128, 128, 0.05), rgba(255, 255, 255, 0.4));
+  background: radial-gradient(50% 0 180deg, circle farthest-side, rgba(128, 128, 128, 0.05), rgba(255, 255, 255, 0.4));
+}
+
+/* line 1723, sass/pre.scss */
+#zen.play .circle.rotate {
+  -webkit-animation: zen-rotate 20s linear infinite;
+  -moz-animation: zen-rotate 20s linear infinite;
+}
+
+@-webkit-keyframes zen-rotate {
+  /* line 1729, sass/pre.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 1730, sass/pre.scss */
+  to {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+@-moz-keyframes zen-rotate {
+  /* line 1734, sass/pre.scss */
+  from {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 1735, sass/pre.scss */
+  to {
+    -moz-transform: rotate(-360deg);
+  }
+}
+/* line 1742, sass/pre.scss */
+.aftersale-redirect {
+  padding: 30px;
+  text-align: center;
+}
+/* line 1746, sass/pre.scss */
+.aftersale-redirect h3 {
+  margin-top: 30px;
+}
+/* line 1748, sass/pre.scss */
+.aftersale-redirect h3 span {
+  display: inline;
+}
+
+/* line 1759, sass/pre.scss */
+.modal-window-frame {
+  width: 871px;
+  height: 410px;
+  background: url(http://s32.mindvalley.us/silvalifesystem/media/images/lbv2-bg-low.jpg);
+  margin: 30px 20px !important;
+  position: relative;
+  -webkit-box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* line 1768, sass/pre.scss */
+.modal-window-form {
+  position: absolute;
+  right: 24px;
+  top: 45px;
+}
+
+/* line 1774, sass/pre.scss */
+div#sm_content {
+  -webkit-box-shadow: 0 0 0 0 transparent;
+  -moz-box-shadow: 0 0 0 0 transparent;
+  -o-box-shadow: 0 0 0 0 transparent;
+  -ms-box-shadow: 0 0 0 0 transparent;
+  box-shadow: 0 0 0 0 transparent;
+  width: 921px;
+  height: 459px;
+  margin-left: -475px;
+  box-shadow: none;
+}
+
+/* line 1786, sass/pre.scss */
+.carousel .active, .carousel .next, .carousel .prev {
+  display: block;
+}
+
+/* line 1790, sass/pre.scss */
+.carousel {
+  background: #cccccc url(images/loader.gif) no-repeat center center;
+  height: 320px;
+  position: relative;
+  margin: 0 -10px 20px -10px;
+}
+/* line 1796, sass/pre.scss */
+.carousel p {
+  margin: 0;
+}
+/* line 1800, sass/pre.scss */
+.carousel .item {
+  display: none;
+  position: relative;
+  -webkit-transition: left 0.6s ease-in-out;
+  -moz-transition: left 0.6s ease-in-out;
+  -o-transition: left 0.6s ease-in-out;
+  -ms-transition: left 0.6s ease-in-out;
+  transition: left 0.6s ease-in-out;
+}
+/* line 1804, sass/pre.scss */
+.carousel .item > img {
+  display: block;
+  line-height: 1;
+}
+/* line 1810, sass/pre.scss */
+.carousel .active {
+  left: 0;
+}
+/* line 1814, sass/pre.scss */
+.carousel .next, .carousel .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/* line 1820, sass/pre.scss */
+.carousel .next.left, .carousel .prev.right {
+  left: 0;
+}
+/* line 1824, sass/pre.scss */
+.carousel .active.right, .carousel .next {
+  left: 100%;
+}
+/* line 1828, sass/pre.scss */
+.carousel .active.left, .carousel .prev {
+  left: -100%;
+}
+
+/* line 1836, sass/pre.scss */
+.carousel-control {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #222222;
+  border: 3px solid #ffffff;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+}
+/* line 1855, sass/pre.scss */
+.carousel-control.right {
+  left: auto;
+  right: 15px;
+}
+/* line 1860, sass/pre.scss */
+.carousel-control:hover {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+/* line 1869, sass/pre.scss */
+.carousel-caption {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 15px 5px;
+  background: #333333;
+  background: rgba(0, 0, 0, 0.75);
+}
+/* line 1879, sass/pre.scss */
+.carousel-caption h4, .carousel-caption p {
+  color: #ffffff;
+}
+
+/* line 1885, sass/pre.scss */
+.carousel-inner {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  height: inherit;
+}
+
+/* line 1896, sass/pre.scss */
+.item .slider-background {
+  position: absolute;
+}
+/* line 1900, sass/pre.scss */
+.item .slider-content {
+  position: absolute;
+  margin: 30px 90px;
+}
+
+/* line 1906, sass/pre.scss */
+.carousel-control.pagination-holder {
+  position: relative;
+  width: auto;
+  top: -35px;
+  left: 0;
+  border: none;
+  background: none;
+  line-height: 10px;
+  opacity: .8;
+}
+
+/* line 1918, sass/pre.scss */
+.carousel-control.pagination {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 40px;
+  top: 0;
+  left: 0;
+  margin: 0 3px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #AAA;
+  margin: 0 2px;
+  background-color: #333;
+}
+
+/* line 1935, sass/pre.scss */
+.carousel-control.pagination.selected {
+  opacity: 1;
+}
+
+/* line 1943, sass/pre.scss */
+.carousel .item .fb-like span span, .carousel .item .fb-like span iframe {
+  width: 90px !important;
+  height: 20px !important;
+}
+
+/* line 1952, sass/pre.scss */
+.faq-box, .faq-box dt, .faq-box dd {
+  background-color: #fff;
+  margin-left: 0px;
+}
+
+/* line 1957, sass/pre.scss */
+.faq-box {
+  padding: 20px;
+  border: 1px solid #DDD;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/* line 1963, sass/pre.scss */
+.faq-question-box {
+  float: none;
+  width: initial;
+  text-align: initial;
+  margin-right: 0px;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+/* line 1974, sass/pre.scss */
+code {
+  color: #555;
+  display: block;
+  background: #F9F9F9;
+  border: 1px solid #CCC;
+  border-left: 0.5em solid #CCC;
+  padding: 0.5em;
+  margin: 0 1em 0.5em;
+  line-height: 1.6em;
+  white-space: pre-wrap;
+  /* css-3 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
+}
+/* line 1990, sass/pre.scss */
+code span {
+  color: #C00;
+}
+
+/* line 1996, sass/pre.scss */
+._mc2 ._col {
+  -moz-column-count: 2;
+  -moz-column-width: auto;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 2;
+  -webkit-column-width: auto;
+  -webkit-column-gap: 10px;
+  column-count: 2;
+  column-width: auto;
+  column-gap: 10px;
+}
+/* line 1998, sass/pre.scss */
+._mc2 ._col h1, ._mc2 ._col h2, ._mc2 ._col h3, ._mc2 ._col h4, ._mc2 ._col h5, ._mc2 ._col h6 {
+  -moz-column-span: all;
+  -webkit-column-span: all;
+  column-span: all;
+}
+
+/* line 2002, sass/pre.scss */
+._mc3 ._col {
+  -moz-column-count: 3;
+  -moz-column-width: auto;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 3;
+  -webkit-column-width: auto;
+  -webkit-column-gap: 10px;
+  column-count: 3;
+  column-width: auto;
+  column-gap: 10px;
+}
+/* line 2004, sass/pre.scss */
+._mc3 ._col h1, ._mc3 ._col h2, ._mc3 ._col h3, ._mc3 ._col h4, ._mc3 ._col h5, ._mc3 ._col h6 {
+  -moz-column-span: all;
+  -webkit-column-span: all;
+  column-span: all;
+}
+
+/* line 2008, sass/pre.scss */
+._mc4 ._col {
+  -moz-column-count: 4;
+  -moz-column-width: auto;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 4;
+  -webkit-column-width: auto;
+  -webkit-column-gap: 10px;
+  column-count: 4;
+  column-width: auto;
+  column-gap: 10px;
+}
+/* line 2010, sass/pre.scss */
+._mc4 ._col h1, ._mc4 ._col h2, ._mc4 ._col h3, ._mc4 ._col h4, ._mc4 ._col h5, ._mc4 ._col h6 {
+  -moz-column-span: all;
+  -webkit-column-span: all;
+  column-span: all;
+}
+
+/* line 2018, sass/pre.scss */
+a.go {
+  white-space: nowrap;
+}
+/* line 2020, sass/pre.scss */
+a.go:after {
+  content: ' ';
+  background: url(images/sprite.png) no-repeat -93px -20px;
+  display: inline-block;
+  width: 4px;
+  height: 7px;
+  margin-left: 5px;
+}
+
+/* line 2033, sass/pre.scss */
+._widget {
+  background: #EFEFEF;
+  border: 1px solid #CDCDCD;
+  margin: 10px 0 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 0 0 10px;
+  position: relative;
+}
+/* line 2040, sass/pre.scss */
+._widget h3 {
+  background-image: linear-gradient(top, #999999 0%, #676767 100%);
+  background-image: -o-linear-gradient(top, #999999 0%, #676767 100%);
+  background-image: -moz-linear-gradient(top, #999999 0%, #676767 100%);
+  background-image: -webkit-linear-gradient(top, #999999 0%, #676767 100%);
+  background-image: -ms-linear-gradient(top, #999999 0%, #676767 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #999999), color-stop(1, #676767));
+  color: #FFF;
+  font-size: 17px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0 0 10px;
+  text-shadow: 0 2px 3px #555;
+}
+/* line 2063, sass/pre.scss */
+._widget h4 {
+  margin: 0 10px 5px;
+  font-size: 11px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+/* line 2070, sass/pre.scss */
+._widget p {
+  margin: 0 10px 0.5em;
+}
+/* line 2075, sass/pre.scss */
+._widget._help p {
+  text-align: center;
+}
+/* line 2077, sass/pre.scss */
+._widget._help p._phone {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+/* line 2080, sass/pre.scss */
+._widget._help p._phone a {
+  color: #333;
+  text-decoration: none;
+}
+/* line 2084, sass/pre.scss */
+._widget._help p._phone:before {
+  background: url(images/sprite.png) no-repeat -93px -27px;
+  content: ' ';
+  display: inline-block;
+  width: 19px;
+  height: 22px;
+  vertical-align: middle;
+  margin: -4px 5px 0 -14px;
+}
+/* line 2091, sass/pre.scss */
+._widget._help h4 {
+  text-align: center;
+  border-top: 1px solid #CDCDCD;
+  padding-top: 10px;
+}
+/* line 2099, sass/pre.scss */
+._widget._assurance h4 {
+  border-top: 1px solid #CDCDCD;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+/* line 2103, sass/pre.scss */
+._widget._assurance h4:before {
+  background: url(images/sprite.png) no-repeat -150px 0;
+  content: ' ';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  float: right;
+  margin: 0 0 0.5em 0.5em;
+}
+/* line 2109, sass/pre.scss */
+._widget._assurance h4.a1 {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+/* line 2114, sass/pre.scss */
+._widget._assurance h4.a2:before {
+  background-position: -174px 0;
+}
+/* line 2117, sass/pre.scss */
+._widget._assurance h4.a3:before {
+  background-position: -198px 0;
+}
+/* line 2121, sass/pre.scss */
+._widget._secure {
+  background: #FFF;
+}
+/* line 2123, sass/pre.scss */
+._widget._secure h3:after {
+  background: url(images/sprite.png) no-repeat -112px -20px;
+  content: ' ';
+  display: inline-block;
+  width: 39px;
+  height: 49px;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: -5px;
+}
+
+/* line 2133, sass/pre.scss */
+._ecp {
+  position: relative;
+}
+/* line 2135, sass/pre.scss */
+._ecp table {
+  width: 690px;
+  margin: 0 10px 1.6em;
+}
+/* line 2138, sass/pre.scss */
+._ecp table thead {
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #CCC;
+}
+/* line 2142, sass/pre.scss */
+._ecp table thead th {
+  padding: 10px 10px;
+  text-align: left;
+}
+/* line 2145, sass/pre.scss */
+._ecp table thead th._currency {
+  text-align: right;
+}
+/* line 2150, sass/pre.scss */
+._ecp table td {
+  padding: 10px 10px 15px;
+}
+/* line 2153, sass/pre.scss */
+._ecp table ._item td {
+  padding-bottom: 30px;
+}
+/* line 2156, sass/pre.scss */
+._ecp table ._total {
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #CCC;
+}
+/* line 2160, sass/pre.scss */
+._ecp table ._total td {
+  text-align: right;
+  font-weight: bold;
+}
+/* line 2166, sass/pre.scss */
+._ecp h4 {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+/* line 2170, sass/pre.scss */
+._ecp h4.orderdate {
+  float: right;
+  padding: 10px 20px 10px 0;
+}
+/* line 2174, sass/pre.scss */
+._ecp h4.summary {
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #CCC;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+/* line 2183, sass/pre.scss */
+._currency {
+  text-align: right;
+}
+
+/* line 2186, sass/pre.scss */
+dl {
+  width: 690px;
+}
+/* line 2188, sass/pre.scss */
+dl dt, dl dd {
+  background: #F0F0F0;
+  display: block;
+  padding: 10px 0;
+  margin-bottom: 1px;
+}
+/* line 2194, sass/pre.scss */
+dl dt {
+  color: #777;
+  float: left;
+  width: 20%;
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* line 2204, sass/pre.scss */
+.billto, .shipto {
+  padding: 0 20px 20px;
+  height: 15em;
+  margin-bottom: 0;
+}
+
+/* line 2209, sass/pre.scss */
+.billto {
+  float: left;
+  width: 320px;
+  border-right: 1px solid #CCC;
+  margin-right: 20px;
+}
+
+/* line 2216, sass/pre.scss */
+.wow h3, .wow p {
+  margin-left: 320px;
+}
+/* line 2219, sass/pre.scss */
+.wow .team {
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+}
+
+/* line 2225, sass/pre.scss */
+.left {
+  clear: both;
+  float: left;
+}
+
+/* line 2229, sass/pre.scss */
+.right {
+  clear: both;
+  float: right;
+}
+
+/* line 2234, sass/pre.scss */
+img.compose {
+  padding: 0;
+  margin: 10px 10px;
+}
+/* line 2237, sass/pre.scss */
+img.compose.center {
+  display: block;
+  margin: 10px auto;
+}
+/* line 2245, sass/pre.scss */
+img.compose.overlay {
+  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.62);
+  -o-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.62);
+  -ms-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.62);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.62);
+}
+/* line 2248, sass/pre.scss */
+img.compose.photo {
+  border: 10px solid #FFF;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.62);
+  -o-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.62);
+  -ms-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.62);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.62);
+}
+/* line 2252, sass/pre.scss */
+img.compose.gallery {
+  border: 10px solid #000;
+}
+/* line 2255, sass/pre.scss */
+img.compose.classy {
+  padding: 10px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.32);
+  -o-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.32);
+  -ms-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.32);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.32);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 2265, sass/pre.scss */
+div.caption {
+  display: block;
+  padding: 0;
+  margin: 10px 10px;
+}
+/* line 2270, sass/pre.scss */
+div.caption span {
+  display: block;
+  padding: 5px 10px 8px;
+  font-size: 13px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #555;
+}
+/* line 2280, sass/pre.scss */
+div.caption.center {
+  margin: 10px auto;
+}
+/* line 2284, sass/pre.scss */
+div.caption.pro {
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.31);
+  -o-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.31);
+  -ms-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.31);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.31);
+}
+/* line 2286, sass/pre.scss */
+div.caption.pro span {
+  background: #333;
+  color: #FFF;
+}
+/* line 2293, sass/pre.scss */
+div.caption.overlay img {
+  position: relative;
+  display: block;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.62);
+  -o-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.62);
+  -ms-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.62);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.62);
+}
+/* line 2300, sass/pre.scss */
+div.caption.left, div.caption.right {
+  margin: 15px 10px;
+}
+/* line 2302, sass/pre.scss */
+div.caption.left span, div.caption.right span {
+  text-align: left;
+}
+
+/* line 2310, sass/pre.scss */
+img.composed.classy {
+  background: #FFF;
+}
+
+/* line 2315, sass/pre.scss */
+body.frame h1, body.frame h2, body.frame h3, body.frame h4, body.frame h5, body.frame h6 {
+  font-family: "Maven Pro", sans-serif !important;
+  font-weight: normal;
+  line-height: 1.2em;
+  color: #333;
+}
+/* line 2321, sass/pre.scss */
+body.frame h2 {
+  font-size: 1.75em;
+}
+/* line 2325, sass/pre.scss */
+body.frame ._ecp h4 {
+  font-size: 16px;
+}
+/* line 2329, sass/pre.scss */
+body.frame ._widget h3 {
+  background: #999;
+  background-image: linear-gradient(top, #999999 0%, #676767 100%);
+  background-image: -o-linear-gradient(top, #999999 0%, #676767 100%);
+  background-image: -moz-linear-gradient(top, #999999 0%, #676767 100%);
+  background-image: -webkit-linear-gradient(top, #999999 0%, #676767 100%);
+  background-image: -ms-linear-gradient(top, #999999 0%, #676767 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #999999), color-stop(1, #676767));
+  color: #FFF;
+  font-size: 1.0625em;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0 0 10px;
+  text-shadow: 0 2px 3px #555;
+}
+
+/* line 2347, sass/pre.scss */
+a._order {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+/* line 2351, sass/pre.scss */
+a._order img {
+  margin: 0 auto;
+}
+
+/* line 2356, sass/pre.scss */
+._smb {
+  text-align: center;
+}
+/* line 2358, sass/pre.scss */
+._smb ._badge {
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 2363, sass/pre.scss */
+._smb._h ._badge {
+  overflow: hidden;
+  vertical-align: middle;
+  height: 24px;
+}
+
+/* line 2372, sass/pre.scss */
+.sharebutton.facebook {
+  width: 50px;
+  height: 60px;
+}
+/* line 2376, sass/pre.scss */
+.sharebutton.facebook iframe {
+  position: relative;
+}
+
+/* line 2385, sass/pre.scss */
+.video_placerholder {
+  position: relative;
+}
+/* line 2387, sass/pre.scss */
+.video_placerholder:before {
+  content: url("/_ignite/images/play-overlay.png");
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -32px 0 0 -32px;
+}
+
+/* line 2401, sass/pre.scss */
+.sharrre {
+  margin: 15px 0 0 5px;
+  float: left;
+}
+/* line 2404, sass/pre.scss */
+.sharrre .box_share {
+  float: left;
+  width: 90px;
+  height: 95px;
+}
+/* line 2408, sass/pre.scss */
+.sharrre .box_share:active {
+  -webkit-box-shadow: 0 0 0 0 #333333;
+  -moz-box-shadow: 0 0 0 0 #333333;
+  -o-box-shadow: 0 0 0 0 #333333;
+  -ms-box-shadow: 0 0 0 0 #333333;
+  box-shadow: 0 0 0 0 #333333;
+}
+/* line 2414, sass/pre.scss */
+.sharrre .count, .sharrre .share {
+  display: inline-block;
+  width: 85px;
+  text-align: center;
+  font-weight: bold;
+}
+/* line 2421, sass/pre.scss */
+.sharrre .count {
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #444444;
+  text-shadow: 0px 1px 0px #ffffff;
+  filter: dropshadow(color=white, offx=0, offy=1);
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #b9b9b9;
+  border-width: 1px;
+  margin-bottom: 10px;
+  padding: 0 2px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+/* line 2439, sass/pre.scss */
+.sharrre .share {
+  height: 34px;
+  line-height: 34px;
+  color: #ffffff;
+  font-size: 14px;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+  filter: dropshadow(color=#d1d1d1, offx=0, offy=1);
+  border-width: 1px;
+  vertical-align: top;
+  padding-right: 4px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 2451, sass/pre.scss */
+.sharrre .share span {
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 2462, sass/pre.scss */
+.share.facebook_share {
+  border: 1px solid #3b5998;
+  background-color: #3b5998;
+}
+/* line 2467, sass/pre.scss */
+.share.gplus_share {
+  border: 1px solid #e0513d;
+  background-color: #e0513d;
+}
+/* line 2472, sass/pre.scss */
+.share.tweet_share {
+  border: 1px solid #00abf0;
+  background-color: #00abf0;
+}
+/* line 2477, sass/pre.scss */
+.share.stumble_share {
+  border: 1px solid #88c646;
+  background-color: #88c646;
+}
+/* line 2482, sass/pre.scss */
+.share.pinterest_share {
+  border: 1px solid #cb2027;
+  background-color: #cb2027;
+}
+/* line 2495, sass/pre.scss */
+.share span._facebook {
+  background-position: 0 0;
+  height: 35px;
+  width: 35px;
+}
+/* line 2500, sass/pre.scss */
+.share span._gplus {
+  background-position: 0 -35px;
+  height: 35px;
+  width: 35px;
+}
+/* line 2506, sass/pre.scss */
+.share span._tweet {
+  background-position: 0 -140px;
+  height: 35px;
+  width: 35px;
+}
+/* line 2511, sass/pre.scss */
+.share span._stumble {
+  background-position: 0 -105px;
+  height: 35px;
+  width: 35px;
+}
+/* line 2516, sass/pre.scss */
+.share span._pinterest {
+  background-position: 0 -70px;
+  height: 35px;
+  width: 35px;
+}
+
+/* line 2526, sass/pre.scss */
+.socialtxt {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  margin: 18px 0;
+  line-height: 0px !important;
+}
+
+/* line 2538, sass/pre.scss */
+._email {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 2541, sass/pre.scss */
+._email .stButton .stBubble, ._email .stButton .stBubble {
+  background: none !important;
+  width: 91px;
+}
+/* line 2546, sass/pre.scss */
+._email .stButton .stBubble {
+  width: 91px;
+  margin-top: 16px;
+  margin-bottom: 7px;
+}
+/* line 2552, sass/pre.scss */
+._email .vertical .stButton {
+  margin-left: 0px;
+}
+/* line 2556, sass/pre.scss */
+._email .stButton {
+  margin-left: 15px;
+}
+/* line 2561, sass/pre.scss */
+._email .stButton .stBubble_count {
+  background: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px !important;
+  color: #444444;
+  text-shadow: 0px 1px 0px #ffffff;
+  min-height: 40px;
+  line-height: 40px;
+  border: 1px solid #b9b9b9;
+  border-width: 1px;
+  margin-bottom: 10px;
+  padding: 0 2px;
+  width: 85px;
+  text-align: center;
+  font-weight: bold;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+/* line 2579, sass/pre.scss */
+._email .stButton .stMainServices {
+  border-width: 1px;
+  vertical-align: top;
+  background-color: #474747;
+  background-image: url("images/email-share.png") !important;
+  height: 30px;
+  padding-left: 30px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 2595, sass/pre.scss */
+.menu_head {
+  background: #cccccc;
+  cursor: pointer;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  text-shadow: none;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+/* line 2607, sass/pre.scss */
+.menu_body {
+  width: 750px;
+  display: none;
+}
+/* line 2611, sass/pre.scss */
+.menu_body p {
+  padding: 10px;
+  margin: 0px;
+  font-size: 16px;
+}
+
+/* line 2618, sass/pre.scss */
+.plusminus {
+  float: right;
+  padding: 10px;
+  margin: -10px 0 0 0;
+}
+
+/* line 2627, sass/pre.scss */
+.player {
+  margin: 0 -10px;
+  background: #353535;
+  color: #eee;
+}
+
+/* line 2635, sass/pre.scss */
+li.checklist-item.ajaxload .player {
+  margin: 0 -20px;
+}
+
+/* line 2639, sass/pre.scss */
+.player-header {
+  padding: 10px;
+  border-bottom: 1px solid #000;
+  position: relative;
+  min-height: 117px;
+}
+/* line 2646, sass/pre.scss */
+.player-header .album-art,
+.player-header .title,
+.player-header .artist,
+.player-header .controls {
+  float: left;
+  vertical-align: top;
+}
+/* line 2654, sass/pre.scss */
+.player-header .title,
+.player-header .artist {
+  width: 570px;
+  padding-left: 30px;
+}
+/* line 2660, sass/pre.scss */
+.player-header .album-art {
+  width: 128px;
+  height: 128px;
+}
+/* line 2665, sass/pre.scss */
+.player-header .title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+/* line 2674, sass/pre.scss */
+li.checklist-item .player-header .title {
+  font-size: .8em;
+}
+
+/* line 2678, sass/pre.scss */
+.player-header .artist {
+  color: #999;
+  font-size: .9em;
+}
+
+/* line 2683, sass/pre.scss */
+li.checklist-item .player-header .artist {
+  font-size: 0.7em;
+}
+
+/* line 2687, sass/pre.scss */
+.player-header .controls {
+  background: #252525;
+  width: 570px;
+  height: 35px;
+  margin: 18px 0 0 5px;
+  padding: 0 15px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+}
+/* line 2695, sass/pre.scss */
+.player-header .controls .prev,
+.player-header .controls .play,
+.player-header .controls .next,
+.player-header .controls .progress,
+.player-header .controls .current-time {
+  display: inline-block;
+  cursor: pointer;
+}
+/* line 2704, sass/pre.scss */
+.player-header .controls .play {
+  height: 35px;
+  width: 15px;
+  background: url(images/playlist/play.png) no-repeat center center;
+}
+/* line 2709, sass/pre.scss */
+.player-header .controls .play.pause {
+  background: url(images/playlist/pause.png) no-repeat center center;
+}
+/* line 2715, sass/pre.scss */
+.player-header .controls .next, .player-header .controls .prev {
+  height: 35px;
+  width: 15px;
+}
+/* line 2721, sass/pre.scss */
+.player-header .controls .next {
+  background: url(images/playlist/next.png) no-repeat center center;
+}
+/* line 2725, sass/pre.scss */
+.player-header .controls .prev {
+  background: url(images/playlist/prev.png) no-repeat center center;
+}
+/* line 2729, sass/pre.scss */
+.player-header .controls .progress {
+  background: url(images/playlist/progress.png) no-repeat center center;
+  width: 465px;
+  height: 35px;
+  margin: 0 5px;
+  position: relative;
+}
+/* line 2737, sass/pre.scss */
+.player-header .controls .buffer, .player-header .controls .seek {
+  width: 0;
+  height: 7px;
+  position: absolute;
+  top: 14px;
+  left: 1px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 2749, sass/pre.scss */
+.player-header .controls .seek {
+  z-index: 11;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  background: -webkit-gradient(linear, 0% 0, 0% 100%, from(rgba(255, 255, 255, 0.9)), to(rgba(200, 200, 200, 0.8)));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(200, 200, 200, 0.8));
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(200, 200, 200, 0.8));
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(200, 200, 200, 0.8));
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(200, 200, 200, 0.8));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(200, 200, 200, 0.8));
+}
+
+/* line 2760, sass/pre.scss */
+.player-header .controls .buffer {
+  z-index: 10;
+  background: #3CAAC8;
+  background: rgba(60, 170, 200, 0.8);
+  background: -webkit-gradient(linear, 0% 0, 0% 100%, from(rgba(44, 124, 145, 0.8)), to(rgba(78, 183, 212, 0.8)));
+  background: -webkit-linear-gradient(top, rgba(44, 124, 145, 0.8), rgba(78, 183, 212, 0.8));
+  background: -moz-linear-gradient(top, rgba(44, 124, 145, 0.8), rgba(78, 183, 212, 0.8));
+  background: -o-linear-gradient(top, rgba(44, 124, 145, 0.8), rgba(78, 183, 212, 0.8));
+  background: -ms-linear-gradient(top, rgba(44, 124, 145, 0.8), rgba(78, 183, 212, 0.8));
+  background: linear-gradient(rgba(44, 124, 145, 0.8), rgba(78, 183, 212, 0.8));
+}
+
+/* line 2771, sass/pre.scss */
+.player-header .controls .current-time {
+  width: 23px;
+  height: 35px;
+  font-size: 0.7em;
+  vertical-align: top;
+  line-height: 35px;
+}
+
+/* line 2778, sass/pre.scss */
+.player-header .player-status {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  bottom: 8px;
+  left: 160px;
+  font-size: 10px;
+}
+
+/* line 2786, sass/pre.scss */
+.player ul.playlist {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2790, sass/pre.scss */
+.player li {
+  list-style: none;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #555;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.35rem;
+}
+
+/* line 2798, sass/pre.scss */
+.player li.playlist-item-head {
+  color: #999;
+  text-transform: uppercase;
+}
+
+/* line 2802, sass/pre.scss */
+.player li .number {
+  width: 30px;
+  display: inline-block;
+}
+
+/* line 2806, sass/pre.scss */
+.player li .duration {
+  width: 80px;
+  float: right;
+  text-align: right;
+  display: inline-block;
+}
+
+/* line 2812, sass/pre.scss */
+.player li .download {
+  text-decoration: none;
+  margin-left: 20px;
+  float: right;
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  padding: 0 10px;
+  margin-bottom: 0;
+  font-size: 10px;
+  font-size: 1rem;
+  line-height: 18px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, white, #e6e6e6);
+  background-image: -ms-linear-gradient(top, white, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, white, #e6e6e6);
+  background-image: -o-linear-gradient(top, white, #e6e6e6);
+  background-image: linear-gradient(top, white, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+  border: 1px solid #cccccc;
+  border-bottom-color: #b3b3b3;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  *margin-left: .3em;
+  background-image: linear-gradient(top, #62b9ec 0%, #36a8ea 1%, #127fd2 100%);
+  background-image: -o-linear-gradient(top, #62b9ec 0%, #36a8ea 1%, #127fd2 100%);
+  background-image: -moz-linear-gradient(top, #62b9ec 0%, #36a8ea 1%, #127fd2 100%);
+  background-image: -webkit-linear-gradient(top, #62b9ec 0%, #36a8ea 1%, #127fd2 100%);
+  background-image: -ms-linear-gradient(top, #62b9ec 0%, #36a8ea 1%, #127fd2 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #62b9ec), color-stop(0.01, #36a8ea), color-stop(1, #127fd2));
+  color: #FFF;
+  text-shadow: -2px -2px 2px rgba(0, 0, 0, 0.16);
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1992DA #168BD3 #00599D;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+/* line 2862, sass/pre.scss */
+.player li .download:hover {
+  background-color: #0351B7;
+  background-image: linear-gradient(top, #56a4dc 0%, #2f90d5 1%, #0351b7 99%, #1059b9 100%);
+  background-image: -o-linear-gradient(top, #56a4dc 0%, #2f90d5 1%, #0351b7 99%, #1059b9 100%);
+  background-image: -moz-linear-gradient(top, #56a4dc 0%, #2f90d5 1%, #0351b7 99%, #1059b9 100%);
+  background-image: -webkit-linear-gradient(top, #56a4dc 0%, #2f90d5 1%, #0351b7 99%, #1059b9 100%);
+  background-image: -ms-linear-gradient(top, #56a4dc 0%, #2f90d5 1%, #0351b7 99%, #1059b9 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #56a4dc), color-stop(0.01, #2f90d5), color-stop(0.99, #0351b7), color-stop(1, #1059b9));
+  border-color: #1D6699 #165E95 #003481;
+  color: #fff;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  -ms-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+
+/* Playlist ENDS */
+/* Playlist Single STARTS */
+/* line 2877, sass/pre.scss */
+.player.single {
+  background: none;
+}
+
+/* line 2880, sass/pre.scss */
+.player.single .player-header {
+  border-bottom: none;
+}
+
+/* line 2883, sass/pre.scss */
+.player.single .player-header .controls {
+  width: 300px;
+  margin: 0;
+}
+
+/* line 2887, sass/pre.scss */
+.player.single .player-header .controls .progress {
+  width: 175px;
+}
+
+/* line 2890, sass/pre.scss */
+.player.single .player-header .controls .current-time {
+  width: 50px;
+}
+
+/* line 2893, sass/pre.scss */
+.player.single .playlist {
+  display: none;
+}
+
+/* line 2896, sass/pre.scss */
+.player.single .player-header .player-status {
+  top: 10px;
+  bottom: auto;
+}
+
+/* Playlist Single ENDS */
+/*Playlist video*/
+/* line 2902, sass/pre.scss */
+.playlist-video-volume-mute,
+.playlist-video-volume-track,
+.playlist-video-volume-progress,
+.playlist-video-volume-handle,
+.playlist-video-volume-full,
+.playlist-video-fastbackward,
+.playlist-video-fastforward,
+.playlist-video-fullscreen,
+.playlist-video-play,
+.playlist-video-pause,
+.playlist-video-track,
+.pl-track-loaded,
+.pl-track-progress,
+.pl-track-playhead {
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image: url("images/playlist/video-controls.png");
+  background-repeat: no-repeat;
+  text-indent: -999em;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+}
+
+/* line 2926, sass/pre.scss */
+.playlist-video-control {
+  background-image: url("images/playlist/video-controls-background.png");
+  background-repeat: no-repeat;
+  color: transparent;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  height: 71px;
+  width: 450px;
+  margin-left: -225px;
+}
+
+/* line 2937, sass/pre.scss */
+.playlist-video-volume-mute {
+  background-position: -195px -33px;
+  height: 20px;
+  left: 15px;
+  position: absolute !important;
+  top: 15px;
+  width: 20px;
+}
+
+/* line 2945, sass/pre.scss */
+.playlist-video-volume-mute:hover {
+  background-position: -195px -4px;
+}
+
+/* line 2948, sass/pre.scss */
+.playlist-video-volume-mute:active {
+  background-position: -195px -64px;
+}
+
+/* line 2951, sass/pre.scss */
+.playlist-video-volume-panel {
+  height: 20px;
+  left: 33px;
+  overflow: visible;
+  position: absolute !important;
+  top: 16px;
+  width: 50px;
+}
+
+/* line 2959, sass/pre.scss */
+.playlist-video-volume-track {
+  background-position: 0px -95px;
+  height: 9px;
+  left: 0px;
+  position: absolute !important;
+  top: 5px;
+  text-align: left;
+  width: 50px;
+}
+
+/* line 2968, sass/pre.scss */
+.playlist-video-volume-progress {
+  background-position: -50px -95px;
+  height: 9px;
+  position: absolute !important;
+  width: 0px;
+}
+
+/* line 2974, sass/pre.scss */
+.playlist-video-volume-handle {
+  background-position: -136px -36px;
+  left: 0px;
+  position: absolute !important;
+  top: -3px;
+  text-align: left;
+  height: 18px;
+  width: 18px;
+}
+
+/* line 2983, sass/pre.scss */
+.playlist-video-volume-handle:hover {
+  background-position: -136px -7px;
+}
+
+/* line 2986, sass/pre.scss */
+.playlist-video-volume-handle:active {
+  background-position: -136px -67px;
+}
+
+/* line 2989, sass/pre.scss */
+.playlist-video-volume-full {
+  background-position: -225px -33px;
+  height: 20px;
+  left: 86px;
+  position: absolute !important;
+  top: 15px;
+  width: 20px;
+}
+
+/* line 2997, sass/pre.scss */
+.playlist-video-volume-full:hover {
+  background-position: -225px -4px;
+}
+
+/* line 3000, sass/pre.scss */
+.playlist-video-volume-full:active {
+  background-position: -225px -63px;
+}
+
+/* line 3003, sass/pre.scss */
+.playlist-video-fastbackward {
+  background-position: -60px -30px;
+  position: absolute !important;
+  top: 10px;
+  left: 172px;
+  text-align: left;
+  height: 30px;
+  width: 35px;
+}
+
+/* line 3012, sass/pre.scss */
+.playlist-video-fastbackward:hover {
+  background-position: -60px 0px;
+}
+
+/* line 3015, sass/pre.scss */
+.playlist-video-fastbackward:active {
+  background-position: -60px -60px;
+}
+
+/* line 3018, sass/pre.scss */
+.playlist-video-fastforward {
+  background-position: -95px -30px;
+  position: absolute !important;
+  top: 10px;
+  left: 250px;
+  text-align: left;
+  height: 30px;
+  width: 35px;
+}
+
+/* line 3027, sass/pre.scss */
+.playlist-video-fastforward:hover {
+  background-position: -95px 0px;
+}
+
+/* line 3030, sass/pre.scss */
+.playlist-video-fastforward:active {
+  background-position: -95px -60px;
+}
+
+/* line 3033, sass/pre.scss */
+.playlist-video-play-pause {
+  top: 10px;
+  left: 213px;
+  height: 30px;
+  width: 30px;
+  position: absolute !important;
+  overflow: hidden;
+}
+
+/* line 3041, sass/pre.scss */
+.playlist-video-play {
+  background-position: 0px -30px;
+  height: inherit;
+  width: inherit;
+}
+
+/* line 3046, sass/pre.scss */
+.playlist-video-play:hover {
+  background-position: 0px 0px;
+}
+
+/* line 3049, sass/pre.scss */
+.playlist-video-play:active {
+  background-position: 0px -60px;
+}
+
+/* line 3052, sass/pre.scss */
+.playlist-video-pause {
+  background-position: -29px -30px;
+  height: inherit;
+  width: inherit;
+}
+
+/* line 3057, sass/pre.scss */
+.playlist-video-pause:hover {
+  background-position: -29px 0px;
+}
+
+/* line 3060, sass/pre.scss */
+.playlist-video-pause:active {
+  background-position: -29px -60px;
+}
+
+/* line 3064, sass/pre.scss */
+.playlist-video-fullscreen {
+  background-image: none;
+  position: absolute !important;
+  top: 10px;
+  right: 15px;
+  text-align: left;
+  height: 9px;
+  width: 14px;
+  border: 2px solid white;
+  border-radius: 3px;
+  transition-property: width,height;
+  -moz-transition-property: width,height;
+  /* Firefox 4 */
+  -webkit-transition-property: width,height;
+  /* Safari and Chrome */
+  -o-transition-property: width,height;
+  /* Opera */
+  transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  /* Firefox 4 */
+  -webkit-transition-duration: 0.5s;
+  /* Safari and Chrome */
+  -o-transition-duration: 0.5s;
+  /* Opera */
+}
+
+/* line 3083, sass/pre.scss */
+.playlist-video-fullscreen:hover {
+  height: 18px;
+  width: 28px;
+}
+
+/* line 3087, sass/pre.scss */
+.playlist-video-fullscreen:active {
+  box-shadow: 0px 0px 5px 1px white;
+}
+
+/* line 3091, sass/pre.scss */
+.playlist-video-timepass {
+  color: #4F4F4F;
+  left: 28px;
+  top: 41px;
+  font-size: 9px;
+  font-weight: bold;
+  position: absolute !important;
+  right: auto;
+  text-shadow: black 1px 1px 2px;
+  white-space: nowrap;
+  width: auto !important;
+}
+
+/* line 3103, sass/pre.scss */
+.playlist-video-timepass,
+.playlist-video-timeleft {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+}
+
+/* line 3110, sass/pre.scss */
+.playlist-video-timeleft {
+  color: #4F4F4F;
+  left: 392px;
+  top: 41px;
+  font-size: 9px;
+  font-weight: bold;
+  position: absolute !important;
+  right: auto;
+  text-shadow: black 1px 1px 2px;
+  white-space: nowrap;
+  width: auto !important;
+}
+
+/* line 3122, sass/pre.scss */
+.playlist-video-track {
+  background-position: -1px -113px;
+  height: 13px;
+  left: 65px;
+  position: absolute !important;
+  top: 41px;
+  text-align: left;
+  width: 318px;
+}
+
+/* line 3131, sass/pre.scss */
+.pl-track-loaded {
+  background-position: -1px -135px;
+  height: 13px;
+  overflow: hidden;
+  position: absolute !important;
+  top: 1px;
+  left: 0;
+}
+
+/* line 3139, sass/pre.scss */
+.pl-track-progress {
+  background-position: -1px -155px;
+  height: 13px;
+  overflow: hidden;
+  position: absolute !important;
+  top: 1px;
+  left: 0;
+}
+
+/* line 3147, sass/pre.scss */
+.pl-track-playhead {
+  background-position: -167px -35px;
+  height: 18px;
+  margin-left: -4px;
+  position: absolute !important;
+  top: -1px;
+  width: 18px;
+}
+
+/* line 3155, sass/pre.scss */
+.pl-track-playhead:hover {
+  background-position: -167px -5px;
+}
+
+/* line 3158, sass/pre.scss */
+.pl-track-playhead:active {
+  background-position: -167px -65px;
+}
+
+/* line 3161, sass/pre.scss */
+.video-meta {
+  position: absolute;
+  top: 0px;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* line 3167, sass/pre.scss */
+.video-box {
+  position: relative;
+}
+
+/* line 3170, sass/pre.scss */
+.meta-background {
+  position: absolute;
+  top: 0px;
+  width: 1000px;
+  height: 500px;
+  opacity: 0.3;
+  background-color: black;
+}
+
+/* line 3179, sass/pre.scss */
+.video-box > div {
+  -webkit-transition-property: height,width;
+  -webkit-transition-duration: 1s;
+}
+
+/* line 3183, sass/pre.scss */
+.video-box > div > object {
+  -webkit-transition-property: height,width;
+  -webkit-transition-duration: 1s;
+}
+
+/* line 3192, sass/pre.scss */
+._mv3 {
+  height: 38rem;
+}
+/* line 3194, sass/pre.scss */
+._mv3._about {
+  background: url("//s79.mindvalley.us/mindvalley/media/images/mindvalley_team_02.png") no-repeat center bottom;
+}
+/* line 3198, sass/pre.scss */
+._mv3._planet {
+  background: url("//s63.mindvalley.us/mindvalley/media/images/mindvalley_team_04.png") no-repeat center bottom;
+}
+/* line 3202, sass/pre.scss */
+._mv3._careers {
+  background: url("//s63.mindvalley.us/mindvalley/media/images/mindvalley_team_05.png") no-repeat center bottom;
+}
+
+/* line 3211, sass/pre.scss */
+._mv3._6features .box {
+  height: 40rem;
+}
+/* line 3213, sass/pre.scss */
+._mv3._6features .box._6ft1 {
+  background: url("//s5.mindvalley.us/mindvalley/media/images/ft6-heroic.png") no-repeat center bottom;
+}
+/* line 3217, sass/pre.scss */
+._mv3._6features .box._6ft2 {
+  background: url("//s5.mindvalley.us/mindvalley/media/images/ft6-mobile.png") no-repeat center bottom;
+}
+/* line 3221, sass/pre.scss */
+._mv3._6features .box._6ft3 {
+  background: url("//s5.mindvalley.us/mindvalley/media/images/ft6-mindvalley.png") no-repeat center bottom;
+}
+/* line 3225, sass/pre.scss */
+._mv3._6features .box._6ft4 {
+  background: url("//s5.mindvalley.us/mindvalley/media/images/ft6-community.png") no-repeat center bottom;
+}
+/* line 3229, sass/pre.scss */
+._mv3._6features .box._6ft5 {
+  background: url("//s5.mindvalley.us/mindvalley/media/images/ft6-growth.png") no-repeat center bottom;
+}
+/* line 3233, sass/pre.scss */
+._mv3._6features .box._6ft6 {
+  background: url("//s5.mindvalley.us/mindvalley/media/images/ft6-consumption.png") no-repeat center bottom;
+}
+
+/* line 3244, sass/pre.scss */
+._quote {
+  background: #FFF;
+  padding: 15px 20px 25px;
+  position: relative;
+  margin-bottom: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 3251, sass/pre.scss */
+._quote:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 60px;
+  border: 0;
+  border-right-width: 30px;
+  border-bottom-width: 20px;
+  border-style: solid;
+  border-color: transparent #FFF;
+  display: block;
+  width: 0;
+}
+
+/* line 3277, sass/pre.scss */
+._timezones ul, ._timezones ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 3283, sass/pre.scss */
+._timezones ul {
+  padding: 0 10px;
+}
+/* line 3285, sass/pre.scss */
+._timezones ul li {
+  border-top: 1px solid #EEE;
+  padding: 10px 0;
+}
+/* line 3288, sass/pre.scss */
+._timezones ul li:last-child {
+  border-bottom: 1px solid #EEE;
+}
+
+/* line 3295, sass/pre.scss */
+p.fineprint {
+  font-size: 11px;
+  color: #555;
+}
+
+/* line 3300, sass/pre.scss */
+._dollarbanner {
+  background: #666;
+  position: relative;
+  text-align: center;
+  padding: 2px 0 0 460px;
+  margin: 70px 0 90px;
+  -webkit-box-shadow: inset 0 2px 15 0 #333333;
+  -webkit-box-shadow: inset 0 2px 15 0 #333333;
+  -moz-box-shadow: inset 0 2px 15 0 #333333;
+  -o-box-shadow: inset 0 2px 15 0 #333333;
+  -ms-box-shadow: inset 0 2px 15 0 #333333;
+  box-shadow: inset 0 2px 15 0 #333333;
+}
+/* line 3308, sass/pre.scss */
+._dollarbanner p {
+  color: #00ddda;
+  font-size: 1.5rem;
+  margin: 0;
+  text-shadow: 0 1px 2px #999;
+}
+/* line 3314, sass/pre.scss */
+._dollarbanner p strong {
+  color: #FFF;
+  font-size: 17px;
+  font-size: 1.7rem;
+}
+/* line 3322, sass/pre.scss */
+._dollarbanner img._i {
+  position: absolute;
+  top: -78px;
+  left: 42px;
+}
+
+/* line 3330, sass/pre.scss */
+._hint {
+  padding-bottom: 80px;
+  background: url("//s24.mindvalley.us/mindvalley/media/images/_hinting.png") no-repeat 50% 100%;
+}
+
+/* line 3335, sass/pre.scss */
+._message {
+  color: #999;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+/* line 3341, sass/pre.scss */
+._testimonial {
+  background: #EEE;
+  margin: 0 0 20px;
+  padding: 1px 20px 20px;
+  overflow: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 3348, sass/pre.scss */
+._testimonial .vcard {
+  min-height: 50px;
+  border-top: 1px solid #DDD;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+/* line 3353, sass/pre.scss */
+._testimonial .vcard .photo {
+  background: url("//s62.mindvalley.us/mindvalley/media/images/_user.jpg") no-repeat 50% 50%;
+  display: block;
+  float: left;
+  margin: 5px 10px 0 0;
+  width: 50px;
+  height: 50px;
+}
+/* line 3362, sass/pre.scss */
+._testimonial .vcard .fn {
+  font-weight: bold;
+}
+/* line 3366, sass/pre.scss */
+._testimonial .vcard .note {
+  font-size: 1.2rem;
+}
+/* line 3370, sass/pre.scss */
+._testimonial .vcard .adr {
+  font-size: 1.3rem;
+}
+span {
+    color: black;
+    font-size: 31px;
+}
+body {
+  margin-top: 20px;
+}
